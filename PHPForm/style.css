@@ -1,0 +1,230 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    align-content: center;
+
+}
+
+.content {
+    display: grid;
+    grid-template-rows: .3fr .3fr 1fr;
+    align-items: center;
+    width: 30%;
+    height: 40%;
+    background-color: dimgrey;
+    box-shadow: 1px 2px 2px black;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+
+.main-menu li {
+
+    width: 60%;
+    list-style: none;
+    font-size: 1.5em;
+    padding: 2%;
+    user-select: none;
+    cursor: pointer;
+    text-shadow: 1px 1px 0.3px grey;
+    transition: margin-left, color;
+    transition-duration: 700ms;
+}
+.main-menu li:nth-child(1):before {
+    content: "\f2f6";
+    font-family: FontAwesome;
+    margin-right: 1%;
+
+}
+
+
+.main-menu li:nth-child(2):before {
+    content: "\f2bb";
+    font-family: FontAwesome;
+    margin-right: 1%;
+
+}
+
+.main-menu li:nth-child(3):before {
+    content: "\f05a";
+    font-family: FontAwesome;
+    margin-right: 1%;
+
+}
+
+.main-menu li:hover {
+    color: orange;
+    margin-left: 10%;
+}
+
+.text-setting {
+
+    border-bottom: solid 1px grey;
+    text-align: center;
+    text-shadow: 1px 1px 0.3px grey;
+}
+
+a {
+
+    text-decoration: none;
+    color: black;
+}
+
+#formReg {
+    display: grid;
+    grid-template-rows: 1fr .3fr 1fr .3fr 1fr .3fr 1fr 1fr;
+    align-items: center;
+    width: 30%;
+    height: 40%;
+    background-color: dimgrey;
+    box-shadow: 1px 2px 2px black;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    position: relative;
+}
+
+
+#formlog {
+    display: grid;
+    grid-template-rows: 1fr .3fr 1fr .3fr 1fr 1fr;
+    align-items: center;
+    width: 30%;
+    height: 40%;
+    background-color: dimgrey;
+    box-shadow: 1px 2px 2px black;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    position: relative;
+}
+
+
+
+
+
+
+input {
+    height: 70%;
+    width: 80%;
+    border-radius: 10px;
+    background-color: dimgrey;
+    border: solid 1px grey;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5em;
+    text-align: center;
+    text-shadow: 1px 1px 0.3px grey;
+}
+
+input:focus {
+    outline: none;
+}
+
+
+button {
+
+    height: 70%;
+    width: 80%;
+    outline: none;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    background-color: gray;
+    font-size: 1.5em;
+    font-weight: 800;
+    text-align: center;
+    text-shadow: 1px 1px 0.3px grey;
+}
+
+.back {
+
+    position: absolute;
+    right: 3%;
+    top: 3%;
+    cursor: pointer;
+    color: gray;
+    transition: right, color;
+
+    transition-duration: 700ms;
+
+
+}
+
+.back::before {
+
+    content: "\f359";
+    font-family: FontAwesome;
+    font-size: 1.5em;
+   
+   
+
+}
+
+.back:hover{
+
+
+    color: rgb(174, 114, 3);
+    right: 6%;
+}
+
+.validate-message{
+
+    
+    color: rgb(101, 5, 5);
+    text-align: center;
+    text-shadow: 1px 1px 0.3px grey;
+
+}
+
+.save-message{
+    
+    position: absolute;
+    left:0%;
+    top:-40px;
+    width: 100%;
+    height: 10%;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: center;
+    text-shadow: 1px 1px 0.3px grey;
+}
+
+#all-user{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    grid-template-rows: .1fr;
+    align-items: center;
+    min-width: 60%;
+    width: fit-content;
+    background-color: dimgrey;
+    box-shadow: 1px 2px 2px black;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    position: relative;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-shadow: 1px 1px 0.3px grey;
+    padding: 3%;
+
+
+}
+
+.text-settingUser{
+
+    width: 50%;
+    border-bottom: solid 1px grey;
+    text-align: left;
+    text-shadow: 1px 1px 0.3px grey;
+    margin-left: auto;
+    margin-right: auto;
+}
