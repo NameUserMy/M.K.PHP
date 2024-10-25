@@ -27,7 +27,7 @@ $saveUser=new UserSave();
         $pass = $_REQUEST['password'];
         if ($validate->Isgood($mail, $login, $pass)) {
            $hesh= password_hash($pass, PASSWORD_BCRYPT,[15]);
-            $user = "{$login}:{$mail}:{$hesh}";
+            $user = "\n{$login}:{$mail}:{$hesh}";
             $saveUser->saveUser($user);
         }
     }
