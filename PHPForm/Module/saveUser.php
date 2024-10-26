@@ -40,3 +40,5 @@ class UserSave
         $this->SaveMessage = "<span class=\"save-message\" style=\"color:green\">Registration seccesful</span>";
     }
 }
+
+?>
