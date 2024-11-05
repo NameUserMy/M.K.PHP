@@ -24,9 +24,9 @@ $countUser = count(GetUser(".\data\user.txt"))
                 <h3>count user <?php echo "{$countUser}" ?></h3>
             </span>
             <ul class="main-menu">
-                <li><a href="http://localhost:3000/PHPForm/loggin.php">Login</a></li>
-                <li><a href="http://localhost:3000/PHPForm/registration.php">Registratioms</a></li>
-                <li><a href="http://localhost:3000/PHPForm/showUser.php">Show Info</a></li>
+                <li><a href="loggin.php">Login</a></li>
+                <li><a href="registration.php">Registratioms</a></li>
+                <li><a href="/PHPForm/showUser.php">Show Info</a></li>
             </ul>
         </section>
     </main>

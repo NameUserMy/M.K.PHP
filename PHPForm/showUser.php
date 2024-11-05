@@ -23,7 +23,7 @@ $users = GetUser("./data/user.txt");
     <main>
 
         <div id='all-user'>
-        <a class="back" href="http://localhost:3000/PHPForm/index.php"></a>
+        <a class="back" href="index.php"></a>
             <span class="text-setting">Login</span><span class="text-setting">Email</span>
             <?php
 

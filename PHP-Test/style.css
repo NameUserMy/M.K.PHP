@@ -1,0 +1,78 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    align-content: center;
+}
+
+main {
+    width: 50%;
+    height: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+}
+
+.info{
+
+    display: block;
+    color: green;
+    width: 100%;
+    text-align: center;
+    
+    
+    }
+
+.wraper{
+
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap:20px;
+    width: 80%;
+    height: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    box-shadow: 1px 1px 2px black;
+   
+
+}
+
+
+
+
+.card {
+    display: grid;
+    grid-template-rows:1fr,auto;
+    align-items: center;
+    min-width:calc(100%);
+    height: calc(100%) ;
+    scroll-snap-align: start;
+    position: relative;
+}
+
+.wraper input{
+
+    width: 80%;
+    height: 20%;
+    border-radius: 5px;
+}
+
+.wraper button{
+
+    font-size: 1.4em;
+    font-weight: 550;
+    color: black;
+    background-color: dimgrey;
+    border-radius: 5px;
+    padding: 0.5%;
+    transition: font-size;
+    transition-duration: 500ms;
+}
+
+
+
+

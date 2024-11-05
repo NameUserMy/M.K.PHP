@@ -35,7 +35,7 @@ $saveUser=new UserSave();
     <main>
         <form id='formReg' method="post">
         <?php echo "$saveUser->SaveMessage"; ?>
-            <a class="back" href="http://localhost:3000/PHPForm/index.php"></a>
+            <a class="back" href="index.php"></a>
             <label class="text-setting">
                 <h2>Enter data for registration</h2>
             </label>

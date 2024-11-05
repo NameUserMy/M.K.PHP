@@ -50,7 +50,7 @@ $redirect = false;
             ?>
 
 
-            <a class="back" href="http://localhost:3000/PHPForm/index.php"></a>
+            <a class="back" href="/PHPForm/index.php"></a>
             <label class="text-setting">
                 <h2>Enter data for loggin</h2>
             </label>
@@ -66,7 +66,7 @@ $redirect = false;
     <?php
 
     if ($redirect) {
-        echo "<script>   setTimeout(redirect, 2000);    function redirect() { window.location.assign(\"http://localhost:3000/PHPForm/index.php\"); }  </script>";
+        echo "<script>   setTimeout(redirect, 2000);    function redirect() { window.location.assign(\"/PHPForm/index.php\"); }  </script>";
     }
     ?>
 
