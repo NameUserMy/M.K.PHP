@@ -30,7 +30,10 @@ if (isset($_REQUEST['serch'])) {
                 $count = $tempcount += 1;
                 $nameF = substr($_REQUEST['mask'], $count);
                 $AnySimbol = "/^.{{$count}}($nameF)$/";
+                if(@scandir($_REQUEST['srcFile'])===false){
 
+                    header('location:index.php');
+                }
                 $files = scandir($_REQUEST['srcFile']);
 
                 if ($files) {
@@ -47,6 +50,7 @@ if (isset($_REQUEST['serch'])) {
 
                 header('location:index.php');
             }
+           
                 $files = scandir($_REQUEST['srcFile']);
                 $nameF = $_REQUEST['mask'];
                 $fullName = "/^($nameF).*/";
