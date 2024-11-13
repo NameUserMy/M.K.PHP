@@ -1,0 +1,106 @@
+:root {
+
+    --with-formcomment: 12vw;
+    --with-content-wrap: 40vw;
+}
+
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+    font-size: 1rem;
+    align-content: center;
+    margin: 0;
+}
+
+main {
+display: grid;
+    width: 50vw;
+    min-height: 45vh;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+
+}
+.comment-wrap {
+    display: grid;
+    grid-template-rows:repeat(auto-fill, 15vh);
+    row-gap: 1vh;
+    width: var(--with-content-wrap);
+    height: 48vh;
+    
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: auto;
+    scrollbar-color: rgba(255,255,255,0.25) rgba(105, 105, 105,0.35);
+    scrollbar-width: thin;
+    
+}
+
+.message {
+
+    display: grid;
+    grid-template-rows:.5fr .5fr 1fr .5fr 1fr .5fr;
+    align-items: center;
+    width:calc(var(--with-content-wrap) - 5vw) ;
+    min-height: 15vh;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 3px black;
+    border-radius: 1vh;
+    border: 0.5px solid dimgrey;
+    
+
+}
+.head-message{
+
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.other-message{
+
+    margin-left:1vw;
+
+
+}
+
+.form-comment {
+    display: grid;
+    grid-template-rows:.5fr .5fr .5fr 1fr .3fr;
+    row-gap: 1vh;
+    width: var(--with-formcomment);
+    height: 15vh;
+    position: absolute;
+    left: calc(var(--with-formcomment) * -1);
+    top: 5vh;
+    box-shadow: 2px 2px 3px black;
+    border-radius: 1vh;
+    border: 0.5px solid dimgrey;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+
+}
+
+.form-comment a{
+
+    position: absolute;
+    top: -2vh;
+    left: 5vw;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.form-comment textarea {
+    resize: none;
+}
+
+.form-comment input,textarea{
+    width: 10vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
