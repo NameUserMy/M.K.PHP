@@ -1,0 +1,36 @@
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    align-content: center;
+}
+
+main {
+    display: grid;
+    grid-template-rows: .1fr .1fr 1.8fr;
+    width: 60vw;
+    height: 70vh;
+    border: solid 1px black;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2vh;
+    
+}
+main h3{
+    text-align: center;
+}
+
+main select{
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cities {
+    display: grid;
+    grid-template-rows: repeat(auto-fill, 5vh);
+    padding-left: 2vw;
+    padding-top: 1vw;
+
+}
