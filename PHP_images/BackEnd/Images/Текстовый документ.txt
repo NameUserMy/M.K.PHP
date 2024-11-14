@@ -1,0 +1,102 @@
+xitonaw657@nestvia.com
+qwerty123
+
+</IfModule>
+Header set Access-Control-Allow-Origin "*"
+Header set Access-Control-Allow-Methods "GET, POST, PUT, DELETE, OPTIONS"
+Header set Access-Control-Allow-Headers "X-Requested-With, Content-Type, X-Token-Auth, Authorization"
+</IfModule>
+
+
+id 1
+http://localhost:5017/Video/LOVE-DEATH+ROBOTS-1s4s.mp4
+
+change entity
+ public class VideoUserRating
+{
+    public int Like { get; set; }
+    public int DisLike { get; set; }
+    public int VideoId { get; set; }
+    public int UserId { get; set; }
+}
+
+{
+
+add to video;
+public List<User> Users { get; set; } = new();
+
+add to user
+ public List<Video> Videos { get; set; } =new();
+
+}
+
+LOVE DEATH + ROBOTS
+
+
+
+«Любовь. Смерть. Роботы» состоит из отдельных короткометражных серий, каждая из которых длится менее получаса. Работа над сериалом ведётся разными актёрскими составами и командами, хотя в создании некоторых эпизодов могут участвовать одни и те же студии. Название сериала указывает на тематическую связь каждого эпизода с тремя вышеупомянутыми темами, однако не каждый эпизод содержит все три элемента.
+
+В начале каждого эпизода изначальные три пиктограммы сериала (символ сердца — «любовь»; косой крест — «смерть»; эмотикон робота — «роботы») заменяются тремя другими, которые символизируют сюжет этого эпизода.
+
+18
+
+
+
+
+
+[RequestFormLimits(MultipartBodyLengthLimit = 536870912)]
+[RequestSizeLimit(536870912)]
+
+[DisableRequestSizeLimit,
+    RequestFormLimits(MultipartBodyLengthLimit = int.MaxValue, 
+        ValueLengthLimit = int.MaxValue)]
+
+[RequestSizeLimit(100_000_000)]
+
+
+
+return new ContentResult {
+        ContentType = "text/html",
+        StatusCode = (int)HttpStatusCode.OK,
+        Content = "<html><body>Hello World</body></html>"
+    };
+
+
+
+Малый Влад
+
+MainSailRasp
+34.557
+
+3mm/m2
+
+#20.117024
+
+
+Server=localhost\MSSQLSERVER01;Database=master;Trusted_Connection=True;
+
+C:\Program Files\Microsoft SQL Server\160\Setup Bootstrap\Log\20240824_202800
+
+
+Add-Migration;
+
+Update-Database;
+
+
+MyNameUserName
+
+MyNameUserName33
+
+zypenajo@citmo.net
+
+
+
+
+sql log: MyNameUserName_SQLLogin_1
+
+sql pass: s5w43amxyd
+
+
+sql str: workstation id=GuestBook.mssql.somee.com;packet size=4096;user id=MyNameUserName_SQLLogin_1;pwd=s5w43amxyd;data source=GuestBook.mssql.somee.com;persist security info=False;initial catalog=GuestBook;TrustServerCertificate=True
+
+
