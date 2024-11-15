@@ -1,0 +1,49 @@
+html,body{
+    width: 100vw;
+    height: 100vh;
+    font-size: 1rem;
+    align-content: center;
+    background-color: dimgrey;
+    margin: 0;
+}
+
+main{
+    width: 50vw;
+    height: 70vh;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    
+}
+
+.info{
+
+    display: grid;
+    grid-template-rows:1fr 1fr 1fr;
+    align-items: center;
+    padding: 2vh;
+    width: 20vw;
+    height: 30vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3vh;
+    box-shadow:-1px -1px 2px dimgray, 2px 2px 2px black ;
+    background-color: grey;
+}
+
+#info-server{
+    
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.info input{
+    height: 5vh;
+    width: 18vw;
+    border-radius: 3vh;
+    outline: none;
+    background-color: dimgrey;
+    font-size: 1.2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
