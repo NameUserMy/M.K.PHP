@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     msg.innerHTML="";
     send.addEventListener('click',(e)=>{
         e.preventDefault();
-        Query.Request.MultipartPost(`http://localhost/BackEnd/Controller/uploadFile.php`,data).then((data)=>{
+        Query.Request.MultipartPost(`http://localhost/BackEndImages/Controller/uploadFile.php`,data).then((data)=>{
             console.log(data);
             if(data===0){
                 msg.innerHTML="File upload successful"
