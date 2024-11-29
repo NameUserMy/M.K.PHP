@@ -7,7 +7,7 @@ margin: 0px;
 main{
 
     display: grid;
-    grid-template-rows: .1fr 2vh .9fr 5vh 1fr 1fr;
+    grid-template-rows: .1fr 2vh .9fr 5vh 1.3fr .7fr;
     row-gap: 1vh;
     margin: 0 auto;
     width: 80vw;
