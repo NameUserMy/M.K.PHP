@@ -2,9 +2,6 @@
 import Query from "./modules/Request.js";
 
 document.addEventListener("DOMContentLoaded", () => {
-
-
-
     const country = document.getElementById('country');
     const selectCountry = document.getElementById('countryOpt');
     const selectCity = document.getElementById('cityOpt');

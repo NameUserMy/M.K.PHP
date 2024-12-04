@@ -1,0 +1,14 @@
+.registration-form{
+    display: grid;
+    grid-template-rows: repeat(5,5vh);
+    row-gap: 2vh;
+    width: 30vw;
+    margin: 0 auto;
+}
+
+.registration-form input{
+    height: 5vh;
+    width: 30vw;
+    font-size: 1.2rem;
+
+}

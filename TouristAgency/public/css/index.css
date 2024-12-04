@@ -1,0 +1,43 @@
+@import url(./forms/registrationForm.css);
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+    font-size: 1rem;
+    margin: 0;
+}
+
+header {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80vw;
+    height: 7vh;
+    margin: 0 auto;
+    border-radius: 0 0 3vh 3vh;
+    border: 1px solid black;
+}
+
+main {
+    width: 80vw;
+    height: 90vh;
+    margin: 0 auto;
+    align-content: center;
+
+}
+
+.header-nav{
+
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+
+
+}
+
+input{
+    border-radius: 1vh;
+    height: 3vh;
+    outline: none;
+}
