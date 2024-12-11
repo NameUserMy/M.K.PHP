@@ -1,10 +1,18 @@
 @import url(./forms/registrationForm.css);
+@import url(./forms/userManagement.css);
+@import url(./hotelManagement.css);
+@import url(./forms/hotel.css);
+@import url(./tours.css);
+@import url(./hotels.css);
+@import url(./comments.css);
 html,
 body {
     height: 100vh;
     width: 100vw;
     font-size: 1rem;
+    background-color: rgb(73, 72, 72);
     margin: 0;
+    
 }
 
 header {
@@ -16,7 +24,8 @@ header {
     height: 7vh;
     margin: 0 auto;
     border-radius: 0 0 3vh 3vh;
-    border: 1px solid black;
+    background-color: rgb(82, 82, 82);
+    box-shadow: 1px 1px 2px dimgrey;
 }
 
 main {
@@ -40,4 +49,76 @@ input{
     border-radius: 1vh;
     height: 3vh;
     outline: none;
+    font-size: 1.1rem;
+    background-color:rgb(73, 72, 72) ;
 }
+
+a{
+    text-decoration: none;
+    text-shadow: 1px 1px dimgrey;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 550;
+    transition-property: all;
+    transition-duration: 500ms;
+    user-select: none;
+    cursor: pointer;
+}
+
+a:hover{
+
+    text-shadow: 1px 1px black;
+    color: dimgrey;
+
+}
+
+.greater{
+
+    text-shadow: 1px 1px black;
+    color: rgb(136, 135, 135);
+    font-size: 1.2rem;
+    font-weight: 550;
+    user-select: none;
+}
+
+.logout-form{
+    display: grid;
+    grid-template-columns:2.5vw auto auto;
+    align-items: center;
+    column-gap: 1vw;
+}
+
+button{
+    cursor: pointer;
+    background-color:rgb(136, 135, 135);
+    border-radius: 0.5vw;
+    width: 10vh;
+    padding: 0.5vh;
+    text-shadow: 1px 1px dimgrey;
+    font-size: 1.1rem;
+}
+
+select{
+    background-color: transparent;
+    outline: none;
+    border-radius: 0.5vh;
+    text-shadow: 1px 1px dimgrey;
+    font-size: 1.1rem;
+}
+
+input[type=file]{
+    display: none;
+  }
+
+  .custom-file-upload{
+    background-color:rgb(136, 135, 135);
+    border-radius: 0.5vw;
+    text-shadow: 1px 1px dimgrey;
+    font-size: 1.1rem;
+    text-align: center;
+    align-content: center;
+    width: 5vw;
+    box-shadow: 1px 1px 2px black;
+    cursor: pointer;
+    
+  }

@@ -1,0 +1,141 @@
+
+:root {
+    --margi-right: 5%;
+}
+
+
+.content-adm-hotel {
+    display: grid;
+    grid-template-areas: 'menu content';
+    grid-template-columns: 15vw auto;
+    column-gap: 5vw;
+    height: 85vh;
+}
+
+#left-menu-hotel {
+    grid-area: menu;
+    background-color: rgb(82, 82, 82);
+    box-shadow: 1px 1px 2px dimgrey;
+    border-radius: 1vw 0 0 1vw;
+    text-shadow: 1px 1px dimgrey;
+}
+
+#content-hotel {
+    grid-area: content;
+    background-color: rgb(82, 82, 82);
+    box-shadow: 1px 1px 2px dimgrey;
+    border-radius: 0 1vw 1vw 0;
+    align-content: center;
+}
+
+#content-hotel {
+    grid-area: content;
+    background-color: rgb(82, 82, 82);
+    box-shadow: 1px 1px 2px dimgrey;
+    border-radius: 0 1vw 1vw 0;
+    align-content: center;
+}
+
+.wraper-content-hotel-managment {
+    display: grid;
+    grid-template-rows: 4vh repeat(auto-fill, 6vh);
+    row-gap: 2vh;
+    height: 80vh;
+    width: 55vw;
+    margin: 0 auto;
+
+}
+
+.wraper-content-managment {
+    display: grid;
+    grid-template-rows: 30vh repeat(auto-fill, 6vh);
+    row-gap: 1vh;
+    height: 80vh;
+    width: 55vw;
+    margin: 0 auto;
+
+}
+
+
+
+.edit{
+    display: grid;
+    grid-template-columns:2vw 10vw 7.5vw 7.5vw;
+    column-gap: 1vw;
+    align-items: center;
+
+}
+.edit button{
+    width: 7.5vw;
+}
+
+.edit-hotel{
+
+    display: grid;
+    grid-template-columns:2vw 15vw 7.5vw 7.5vw auto;
+    column-gap: 1vw;
+    align-items: center;
+    text-shadow: 1px 1px dimgrey;
+
+}
+
+
+
+
+
+.edit-city{
+    display: grid;
+    grid-template-columns:10vw 10vw 7.5vw 7.5vw;
+    column-gap: 1vw;
+    align-items: center;
+
+}
+.edit-city button{
+    width: 7.5vw;
+}
+
+#left-menu-hotel li {
+    list-style: none;
+    padding: 2%;
+    transition-property: margin-left;
+    transition-duration: 500ms;
+    user-select: none;
+    cursor: pointer;
+}
+
+#left-menu-hotel li:hover {
+    margin-left: 10%;
+}
+
+#left-menu-hotel li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#left-menu-hotel li:nth-child(1):before {
+    content: "\f085";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: var(--margi-right);
+}
+
+#left-menu-hotel li:nth-child(2):before {
+    content: "\f085";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: var(--margi-right);
+}
+
+#left-menu-hotel li:nth-child(3):before {
+    content: "\f085";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: var(--margi-right);
+}
+
+#left-menu-hotel li:nth-child(4):before {
+    content: "\f085";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: var(--margi-right);
+}

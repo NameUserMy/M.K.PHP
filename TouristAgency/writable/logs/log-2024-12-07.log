@@ -1,0 +1,1843 @@
+ERROR - 2024-12-07 08:57:24 --> Error connecting to the database: mysqli_sql_exception: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение in C:\xampp\htdocs\TouristAgency\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp\htdocs\TouristAgency\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'touristagency', 3306, '', 0)
+#1 C:\xampp\htdocs\TouristAgency\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\TouristAgency\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\TouristAgency\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\TouristAgency\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\TouristAgency\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\TouristAgency\app\Controllers\Loggin.php(18): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\TouristAgency\system\CodeIgniter.php(933): App\Controllers\Loggin->loggin()
+#8 C:\xampp\htdocs\TouristAgency\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loggin))
+#9 C:\xampp\htdocs\TouristAgency\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\TouristAgency\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\TouristAgency\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\TouristAgency\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\TouristAgency\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение in C:\xampp\htdocs\TouristAgency\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\TouristAgency\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\TouristAgency\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\TouristAgency\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\TouristAgency\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\TouristAgency\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\TouristAgency\app\Controllers\Loggin.php(18): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\TouristAgency\system\CodeIgniter.php(933): App\Controllers\Loggin->loggin()
+#7 C:\xampp\htdocs\TouristAgency\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loggin))
+#8 C:\xampp\htdocs\TouristAgency\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\TouristAgency\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\TouristAgency\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\TouristAgency\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\TouristAgency\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-12-07 08:57:24 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение
+[Method: POST, Route: loggin]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `login` = :login:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Loggin.php(18): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Loggin->loggin()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loggin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+ERROR - 2024-12-07 08:57:28 --> Error connecting to the database: mysqli_sql_exception: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение in C:\xampp\htdocs\TouristAgency\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp\htdocs\TouristAgency\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'touristagency', 3306, '', 0)
+#1 C:\xampp\htdocs\TouristAgency\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\TouristAgency\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\TouristAgency\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\TouristAgency\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\TouristAgency\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\TouristAgency\app\Controllers\HotelManagement.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\TouristAgency\system\CodeIgniter.php(933): App\Controllers\HotelManagement->country()
+#8 C:\xampp\htdocs\TouristAgency\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+#9 C:\xampp\htdocs\TouristAgency\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\TouristAgency\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\TouristAgency\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\TouristAgency\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\TouristAgency\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение in C:\xampp\htdocs\TouristAgency\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\TouristAgency\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\TouristAgency\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\TouristAgency\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\TouristAgency\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\TouristAgency\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\TouristAgency\app\Controllers\HotelManagement.php(17): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\TouristAgency\system\CodeIgniter.php(933): App\Controllers\HotelManagement->country()
+#7 C:\xampp\htdocs\TouristAgency\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+#8 C:\xampp\htdocs\TouristAgency\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\TouristAgency\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\TouristAgency\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\TouristAgency\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\TouristAgency\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-12-07 08:57:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение
+[Method: GET, Route: hotelManagement/country]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `countries`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\HotelManagement.php(17): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->country()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 09:07:28 --> ErrorException: Undefined array key "picUser"
+[Method: POST, Route: userManagement/SetAdmin]
+in APPPATH\Controllers\UserManagement.php on line 24.
+ 1 APPPATH\Controllers\UserManagement.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "picUser"', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Controllers\\UserManagement.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserManagement->SetAdmin()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 09:11:52 --> TypeError: CodeIgniter\BaseModel::timeToString(): Argument #1 ($properties) must be of type array, string given, called in C:\xampp\htdocs\TouristAgency\system\BaseModel.php on line 1875
+[Method: POST, Route: hotelManagement/AddCountry]
+in SYSTEMPATH\BaseModel.php on line 1762.
+ 1 SYSTEMPATH\BaseModel.php(1875): CodeIgniter\BaseModel->timeToString('country')
+ 2 SYSTEMPATH\BaseModel.php(806): CodeIgniter\BaseModel->transformDataToArray('country', 'insert')
+ 3 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert('country', true)
+ 4 APPPATH\Controllers\HotelManagement.php(27): CodeIgniter\Model->insert('country', true)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->AddCountry()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 09:28:37 --> ErrorException: Undefined array key 0
+[Method: POST, Route: hotelManagement/UpdateCountry]
+in APPPATH\Controllers\HotelManagement.php on line 32.
+ 1 APPPATH\Controllers\HotelManagement.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Controllers\\HotelManagement.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->UpdateCountry()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 09:48:56 --> ErrorException: Undefined variable $countries
+[Method: GET, Route: hotelManagement/city]
+in APPPATH\Views\HotelManagement\city.php on line 21.
+ 1 APPPATH\Views\HotelManagement\city.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $countries', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\HotelManagement\\city.php', 21)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\HotelManagement\\city.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/HotelManagement/city', [], true)
+ 5 APPPATH\Controllers\HotelManagement.php(55): view('/HotelManagement/city')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->city()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 09:49:38 --> ErrorException: Undefined variable $countries
+[Method: GET, Route: hotelManagement/city]
+in APPPATH\Views\HotelManagement\city.php on line 21.
+ 1 APPPATH\Views\HotelManagement\city.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $countries', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\HotelManagement\\city.php', 21)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\HotelManagement\\city.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/HotelManagement/city', [], true)
+ 5 APPPATH\Controllers\HotelManagement.php(55): view('/HotelManagement/city')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->city()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 09:50:52 --> ErrorException: Undefined variable $countries
+[Method: GET, Route: hotelManagement/city]
+in APPPATH\Views\HotelManagement\city.php on line 21.
+ 1 APPPATH\Views\HotelManagement\city.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $countries', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\HotelManagement\\city.php', 21)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\HotelManagement\\city.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/HotelManagement/city', [], true)
+ 5 APPPATH\Controllers\HotelManagement.php(55): view('/HotelManagement/city')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->city()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 09:51:13 --> ErrorException: Undefined variable $countries
+[Method: GET, Route: hotelManagement/city]
+in APPPATH\Views\HotelManagement\city.php on line 21.
+ 1 APPPATH\Views\HotelManagement\city.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $countries', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\HotelManagement\\city.php', 21)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\HotelManagement\\city.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/HotelManagement/city', [], true)
+ 5 APPPATH\Controllers\HotelManagement.php(55): view('/HotelManagement/city')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->city()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 09:52:01 --> ErrorException: Undefined variable $countries
+[Method: GET, Route: hotelManagement/city]
+in APPPATH\Views\HotelManagement\city.php on line 21.
+ 1 APPPATH\Views\HotelManagement\city.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $countries', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\HotelManagement\\city.php', 21)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\HotelManagement\\city.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/HotelManagement/city', [], true)
+ 5 APPPATH\Controllers\HotelManagement.php(55): view('/HotelManagement/city')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->city()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 10:37:30 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotelManagement/city]
+in APPPATH\Controllers\HotelManagement.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->city()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 10:37:35 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotelManagement/city]
+in APPPATH\Controllers\HotelManagement.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->city()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 10:38:27 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotelManagement/city]
+in APPPATH\Controllers\HotelManagement.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->city()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 10:39:18 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotelManagement/city]
+in APPPATH\Controllers\HotelManagement.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->city()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 10:39:28 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotelManagement/city]
+in APPPATH\Controllers\HotelManagement.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->city()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 10:39:40 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotelManagement/city]
+in APPPATH\Controllers\HotelManagement.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->city()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 10:39:43 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotelManagement/city]
+in APPPATH\Controllers\HotelManagement.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->city()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 10:40:21 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotelManagement/city]
+in APPPATH\Controllers\HotelManagement.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->city()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 10:40:44 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotelManagement/city]
+in APPPATH\Controllers\HotelManagement.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->city()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 10:41:13 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotelManagement/city]
+in APPPATH\Controllers\HotelManagement.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->city()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 10:46:21 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: hotelManagement/city]
+in APPPATH\Views\HotelManagement\city.php on line 33.
+ 1 APPPATH\Views\HotelManagement\city.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\HotelManagement\\city.php', 33)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\HotelManagement\\city.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/HotelManagement/city', [], true)
+ 5 APPPATH\Controllers\HotelManagement.php(59): view('/HotelManagement/city', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->city()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 10:46:49 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: hotelManagement/city]
+in APPPATH\Views\HotelManagement\city.php on line 33.
+ 1 APPPATH\Views\HotelManagement\city.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\HotelManagement\\city.php', 33)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\HotelManagement\\city.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/HotelManagement/city', [], true)
+ 5 APPPATH\Controllers\HotelManagement.php(59): view('/HotelManagement/city', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->city()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 10:46:57 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: hotelManagement/city]
+in APPPATH\Views\HotelManagement\city.php on line 33.
+ 1 APPPATH\Views\HotelManagement\city.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\HotelManagement\\city.php', 33)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\HotelManagement\\city.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/HotelManagement/city', [], true)
+ 5 APPPATH\Controllers\HotelManagement.php(59): view('/HotelManagement/city', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->city()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 11:10:24 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: hotelManagement/UpdateCity]
+in SYSTEMPATH\BaseModel.php on line 1011.
+ 1 SYSTEMPATH\BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update(null, [])
+ 3 APPPATH\Controllers\HotelManagement.php(81): CodeIgniter\Model->update()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->UpdateCity()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 11:11:29 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: hotelManagement/UpdateCity]
+in SYSTEMPATH\BaseModel.php on line 1011.
+ 1 SYSTEMPATH\BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update(null, [])
+ 3 APPPATH\Controllers\HotelManagement.php(81): CodeIgniter\Model->update()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->UpdateCity()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 11:13:05 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: hotelManagement/UpdateCity]
+in SYSTEMPATH\BaseModel.php on line 1011.
+ 1 SYSTEMPATH\BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update(null, [])
+ 3 APPPATH\Controllers\HotelManagement.php(81): CodeIgniter\Model->update()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->UpdateCity()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 13:22:20 --> TypeError: CodeIgniter\Database\BaseBuilder::select(): Argument #2 ($escape) must be of type ?bool, string given, called in C:\xampp\htdocs\TouristAgency\system\Model.php on line 930
+[Method: GET, Route: hotelManagement/hotel]
+in SYSTEMPATH\Database\BaseBuilder.php on line 398.
+ 1 SYSTEMPATH\Model.php(930): CodeIgniter\Database\BaseBuilder->select('city', 'country')
+ 2 APPPATH\Controllers\HotelManagement.php(99): CodeIgniter\Model->__call('select', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 13:25:58 --> TypeError: CodeIgniter\Database\BaseBuilder::select(): Argument #2 ($escape) must be of type ?bool, string given, called in C:\xampp\htdocs\TouristAgency\system\Model.php on line 930
+[Method: GET, Route: hotelManagement/hotel]
+in SYSTEMPATH\Database\BaseBuilder.php on line 398.
+ 1 SYSTEMPATH\Model.php(930): CodeIgniter\Database\BaseBuilder->select('city', 'country')
+ 2 APPPATH\Controllers\HotelManagement.php(99): CodeIgniter\Model->__call('select', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+ERROR - 2024-12-07 13:37:49 --> mysqli_sql_exception: Table 'touristagency.city' doesn't exist in C:\xampp\htdocs\TouristAgency\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\TouristAgency\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\TouristAgency\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\TouristAgency\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\TouristAgency\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\TouristAgency\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\TouristAgency\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\TouristAgency\app\Controllers\HotelManagement.php(102): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\TouristAgency\system\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+#8 C:\xampp\htdocs\TouristAgency\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+#9 C:\xampp\htdocs\TouristAgency\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\TouristAgency\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\TouristAgency\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\TouristAgency\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\TouristAgency\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-12-07 13:37:49 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'touristagency.city' doesn't exist
+[Method: GET, Route: hotelManagement/hotel]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `cities`
+JOIN `city` ON `city`.`countryid`=`country`.`id`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\HotelManagement.php(102): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 13:37:49 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'touristagency.city' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `cities`
+JOIN `city` ON `city`.`countryid`=`country`.`id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `cities`
+JOIN `city` ON `city`.`countryid`=`country`.`id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `cities`
+JOIN `city` ON `city`.`countryid`=`country`.`id`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\HotelManagement.php(102): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 13:37:49 --> [Caused by] mysqli_sql_exception: Table 'touristagency.city' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `cities`
+JOIN `city` ON `city`.`countryid`=`country`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `cities`
+JOIN `city` ON `city`.`countryid`=`country`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `cities`
+JOIN `city` ON `city`.`countryid`=`country`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `cities`
+JOIN `city` ON `city`.`countryid`=`country`.`id`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\HotelManagement.php(102): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+ERROR - 2024-12-07 13:37:51 --> mysqli_sql_exception: Table 'touristagency.city' doesn't exist in C:\xampp\htdocs\TouristAgency\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\TouristAgency\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\TouristAgency\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\TouristAgency\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\TouristAgency\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\TouristAgency\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\TouristAgency\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\TouristAgency\app\Controllers\HotelManagement.php(102): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\TouristAgency\system\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+#8 C:\xampp\htdocs\TouristAgency\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+#9 C:\xampp\htdocs\TouristAgency\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\TouristAgency\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\TouristAgency\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\TouristAgency\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\TouristAgency\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-12-07 13:37:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'touristagency.city' doesn't exist
+[Method: GET, Route: hotelManagement/hotel]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `cities`
+JOIN `city` ON `city`.`countryid`=`country`.`id`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\HotelManagement.php(102): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 13:37:51 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'touristagency.city' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `cities`
+JOIN `city` ON `city`.`countryid`=`country`.`id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `cities`
+JOIN `city` ON `city`.`countryid`=`country`.`id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `cities`
+JOIN `city` ON `city`.`countryid`=`country`.`id`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\HotelManagement.php(102): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 13:37:51 --> [Caused by] mysqli_sql_exception: Table 'touristagency.city' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `cities`
+JOIN `city` ON `city`.`countryid`=`country`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `cities`
+JOIN `city` ON `city`.`countryid`=`country`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `cities`
+JOIN `city` ON `city`.`countryid`=`country`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `cities`
+JOIN `city` ON `city`.`countryid`=`country`.`id`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\HotelManagement.php(102): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+ERROR - 2024-12-07 13:38:27 --> mysqli_sql_exception: Table 'touristagency.country' doesn't exist in C:\xampp\htdocs\TouristAgency\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\TouristAgency\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\TouristAgency\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\TouristAgency\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\TouristAgency\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\TouristAgency\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\TouristAgency\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\TouristAgency\app\Controllers\HotelManagement.php(102): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\TouristAgency\system\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+#8 C:\xampp\htdocs\TouristAgency\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+#9 C:\xampp\htdocs\TouristAgency\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\TouristAgency\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\TouristAgency\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\TouristAgency\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\TouristAgency\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-12-07 13:38:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'touristagency.country' doesn't exist
+[Method: GET, Route: hotelManagement/hotel]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `cities`
+JOIN `country` ON `city`.`countryid`=`country`.`id`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\HotelManagement.php(102): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 13:38:27 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'touristagency.country' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `cities`
+JOIN `country` ON `city`.`countryid`=`country`.`id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `cities`
+JOIN `country` ON `city`.`countryid`=`country`.`id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `cities`
+JOIN `country` ON `city`.`countryid`=`country`.`id`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\HotelManagement.php(102): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 13:38:27 --> [Caused by] mysqli_sql_exception: Table 'touristagency.country' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `cities`
+JOIN `country` ON `city`.`countryid`=`country`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `cities`
+JOIN `country` ON `city`.`countryid`=`country`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `cities`
+JOIN `country` ON `city`.`countryid`=`country`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `cities`
+JOIN `country` ON `city`.`countryid`=`country`.`id`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\HotelManagement.php(102): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+ERROR - 2024-12-07 13:38:31 --> mysqli_sql_exception: Table 'touristagency.country' doesn't exist in C:\xampp\htdocs\TouristAgency\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\TouristAgency\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\TouristAgency\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\TouristAgency\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\TouristAgency\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\TouristAgency\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\TouristAgency\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\TouristAgency\app\Controllers\HotelManagement.php(102): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\TouristAgency\system\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+#8 C:\xampp\htdocs\TouristAgency\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+#9 C:\xampp\htdocs\TouristAgency\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\TouristAgency\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\TouristAgency\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\TouristAgency\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\TouristAgency\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-12-07 13:38:31 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'touristagency.country' doesn't exist
+[Method: GET, Route: hotelManagement/hotel]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `cities`
+JOIN `country` ON `city`.`countryid`=`country`.`id`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\HotelManagement.php(102): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 13:38:31 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'touristagency.country' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `cities`
+JOIN `country` ON `city`.`countryid`=`country`.`id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `cities`
+JOIN `country` ON `city`.`countryid`=`country`.`id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `cities`
+JOIN `country` ON `city`.`countryid`=`country`.`id`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\HotelManagement.php(102): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 13:38:31 --> [Caused by] mysqli_sql_exception: Table 'touristagency.country' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `cities`
+JOIN `country` ON `city`.`countryid`=`country`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `cities`
+JOIN `country` ON `city`.`countryid`=`country`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `cities`
+JOIN `country` ON `city`.`countryid`=`country`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `cities`
+JOIN `country` ON `city`.`countryid`=`country`.`id`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\HotelManagement.php(102): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 13:38:51 --> ArgumentCountError: Too few arguments to function CodeIgniter\Database\BaseBuilder::join(), 1 passed in C:\xampp\htdocs\TouristAgency\system\Model.php on line 930 and at least 2 expected
+[Method: GET, Route: hotelManagement/hotel]
+in SYSTEMPATH\Database\BaseBuilder.php on line 628.
+ 1 SYSTEMPATH\Model.php(930): CodeIgniter\Database\BaseBuilder->join('country')
+ 2 APPPATH\Controllers\HotelManagement.php(102): CodeIgniter\Model->__call('join', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 13:49:02 --> ErrorException: Attempt to read property "country" on null
+[Method: GET, Route: hotelManagement/hotel]
+in APPPATH\Views\HotelManagement\hotel.php on line 31.
+ 1 APPPATH\Views\HotelManagement\hotel.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "country" on null', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\HotelManagement\\hotel.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\HotelManagement\\hotel.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/HotelManagement/hotel', [], true)
+ 5 APPPATH\Controllers\HotelManagement.php(106): view('/HotelManagement/hotel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 13:49:08 --> ErrorException: Attempt to read property "city" on null
+[Method: GET, Route: hotelManagement/hotel]
+in APPPATH\Views\HotelManagement\hotel.php on line 31.
+ 1 APPPATH\Views\HotelManagement\hotel.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "city" on null', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\HotelManagement\\hotel.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\HotelManagement\\hotel.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/HotelManagement/hotel', [], true)
+ 5 APPPATH\Controllers\HotelManagement.php(106): view('/HotelManagement/hotel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 14:11:14 --> ErrorException: Undefined variable $country
+[Method: GET, Route: hotelManagement/hotel]
+in APPPATH\Views\HotelManagement\hotel.php on line 31.
+ 1 APPPATH\Views\HotelManagement\hotel.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $country', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\HotelManagement\\hotel.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\HotelManagement\\hotel.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/HotelManagement/hotel', [], true)
+ 5 APPPATH\Controllers\HotelManagement.php(103): view('/HotelManagement/hotel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 14:11:20 --> ErrorException: Undefined variable $country
+[Method: GET, Route: hotelManagement/hotel]
+in APPPATH\Views\HotelManagement\hotel.php on line 31.
+ 1 APPPATH\Views\HotelManagement\hotel.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $country', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\HotelManagement\\hotel.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\HotelManagement\\hotel.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/HotelManagement/hotel', [], true)
+ 5 APPPATH\Controllers\HotelManagement.php(103): view('/HotelManagement/hotel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 14:11:28 --> ErrorException: Undefined variable $country
+[Method: GET, Route: hotelManagement/hotel]
+in APPPATH\Views\HotelManagement\hotel.php on line 31.
+ 1 APPPATH\Views\HotelManagement\hotel.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $country', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\HotelManagement\\hotel.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\HotelManagement\\hotel.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/HotelManagement/hotel', [], true)
+ 5 APPPATH\Controllers\HotelManagement.php(103): view('/HotelManagement/hotel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 14:11:32 --> ErrorException: Undefined variable $country
+[Method: GET, Route: hotelManagement/hotel]
+in APPPATH\Views\HotelManagement\hotel.php on line 31.
+ 1 APPPATH\Views\HotelManagement\hotel.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $country', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\HotelManagement\\hotel.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\HotelManagement\\hotel.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/HotelManagement/hotel', [], true)
+ 5 APPPATH\Controllers\HotelManagement.php(103): view('/HotelManagement/hotel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 14:21:27 --> TypeError: CodeIgniter\Database\BaseBuilder::select(): Argument #2 ($escape) must be of type ?bool, string given, called in C:\xampp\htdocs\TouristAgency\system\Model.php on line 930
+[Method: GET, Route: hotelManagement/hotel]
+in SYSTEMPATH\Database\BaseBuilder.php on line 398.
+ 1 SYSTEMPATH\Model.php(930): CodeIgniter\Database\BaseBuilder->select('city', 'country')
+ 2 APPPATH\Controllers\HotelManagement.php(102): CodeIgniter\Model->__call('select', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 14:21:56 --> TypeError: CodeIgniter\Database\BaseBuilder::select(): Argument #2 ($escape) must be of type ?bool, string given, called in C:\xampp\htdocs\TouristAgency\system\Model.php on line 930
+[Method: GET, Route: hotelManagement/hotel]
+in SYSTEMPATH\Database\BaseBuilder.php on line 398.
+ 1 SYSTEMPATH\Model.php(930): CodeIgniter\Database\BaseBuilder->select('city', 'country')
+ 2 APPPATH\Controllers\HotelManagement.php(102): CodeIgniter\Model->__call('select', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 14:22:09 --> TypeError: CodeIgniter\Database\BaseBuilder::select(): Argument #2 ($escape) must be of type ?bool, string given, called in C:\xampp\htdocs\TouristAgency\system\Model.php on line 930
+[Method: GET, Route: hotelManagement/hotel]
+in SYSTEMPATH\Database\BaseBuilder.php on line 398.
+ 1 SYSTEMPATH\Model.php(930): CodeIgniter\Database\BaseBuilder->select('city', 'country')
+ 2 APPPATH\Controllers\HotelManagement.php(102): CodeIgniter\Model->__call('select', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 14:22:12 --> TypeError: CodeIgniter\Database\BaseBuilder::select(): Argument #2 ($escape) must be of type ?bool, string given, called in C:\xampp\htdocs\TouristAgency\system\Model.php on line 930
+[Method: GET, Route: hotelManagement/hotel]
+in SYSTEMPATH\Database\BaseBuilder.php on line 398.
+ 1 SYSTEMPATH\Model.php(930): CodeIgniter\Database\BaseBuilder->select('city', 'country')
+ 2 APPPATH\Controllers\HotelManagement.php(102): CodeIgniter\Model->__call('select', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 14:22:36 --> TypeError: CodeIgniter\Database\BaseBuilder::select(): Argument #2 ($escape) must be of type ?bool, string given, called in C:\xampp\htdocs\TouristAgency\system\Model.php on line 930
+[Method: GET, Route: hotelManagement/hotel]
+in SYSTEMPATH\Database\BaseBuilder.php on line 398.
+ 1 SYSTEMPATH\Model.php(930): CodeIgniter\Database\BaseBuilder->select('city', 'country')
+ 2 APPPATH\Controllers\HotelManagement.php(102): CodeIgniter\Model->__call('select', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 14:22:39 --> TypeError: CodeIgniter\Database\BaseBuilder::select(): Argument #2 ($escape) must be of type ?bool, string given, called in C:\xampp\htdocs\TouristAgency\system\Model.php on line 930
+[Method: GET, Route: hotelManagement/hotel]
+in SYSTEMPATH\Database\BaseBuilder.php on line 398.
+ 1 SYSTEMPATH\Model.php(930): CodeIgniter\Database\BaseBuilder->select('city', 'country')
+ 2 APPPATH\Controllers\HotelManagement.php(102): CodeIgniter\Model->__call('select', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 14:24:48 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: GET, Route: hotelManagement/hotel]
+in SYSTEMPATH\Database\BaseConnection.php on line 927.
+ 1 SYSTEMPATH\Model.php(716): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(922): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\HotelManagement.php(104): CodeIgniter\Model->__call('select', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 14:24:51 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: GET, Route: hotelManagement/hotel]
+in SYSTEMPATH\Database\BaseConnection.php on line 927.
+ 1 SYSTEMPATH\Model.php(716): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(922): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\HotelManagement.php(104): CodeIgniter\Model->__call('select', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 14:25:31 --> TypeError: CodeIgniter\Database\BaseBuilder::select(): Argument #2 ($escape) must be of type ?bool, string given, called in C:\xampp\htdocs\TouristAgency\system\Model.php on line 930
+[Method: GET, Route: hotelManagement/hotel]
+in SYSTEMPATH\Database\BaseBuilder.php on line 398.
+ 1 SYSTEMPATH\Model.php(930): CodeIgniter\Database\BaseBuilder->select('city', 'country')
+ 2 APPPATH\Controllers\HotelManagement.php(104): CodeIgniter\Model->__call('select', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 14:25:34 --> TypeError: CodeIgniter\Database\BaseBuilder::select(): Argument #2 ($escape) must be of type ?bool, string given, called in C:\xampp\htdocs\TouristAgency\system\Model.php on line 930
+[Method: GET, Route: hotelManagement/hotel]
+in SYSTEMPATH\Database\BaseBuilder.php on line 398.
+ 1 SYSTEMPATH\Model.php(930): CodeIgniter\Database\BaseBuilder->select('city', 'country')
+ 2 APPPATH\Controllers\HotelManagement.php(104): CodeIgniter\Model->__call('select', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+ERROR - 2024-12-07 14:25:45 --> mysqli_sql_exception: Unknown column 'city.countryid' in 'on clause' in C:\xampp\htdocs\TouristAgency\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\TouristAgency\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\TouristAgency\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\TouristAgency\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\TouristAgency\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\TouristAgency\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\TouristAgency\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\TouristAgency\app\Controllers\HotelManagement.php(104): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\TouristAgency\system\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+#8 C:\xampp\htdocs\TouristAgency\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+#9 C:\xampp\htdocs\TouristAgency\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\TouristAgency\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\TouristAgency\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\TouristAgency\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\TouristAgency\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-12-07 14:25:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'city.countryid' in 'on clause'
+[Method: GET, Route: hotelManagement/hotel]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `cities`
+JOIN `countries` ON `city`.`countryid`=`country`.`id`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\HotelManagement.php(104): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 14:25:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'city.countryid' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `cities`
+JOIN `countries` ON `city`.`countryid`=`country`.`id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `cities`
+JOIN `countries` ON `city`.`countryid`=`country`.`id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `cities`
+JOIN `countries` ON `city`.`countryid`=`country`.`id`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\HotelManagement.php(104): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 14:25:45 --> [Caused by] mysqli_sql_exception: Unknown column 'city.countryid' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `cities`
+JOIN `countries` ON `city`.`countryid`=`country`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `cities`
+JOIN `countries` ON `city`.`countryid`=`country`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `cities`
+JOIN `countries` ON `city`.`countryid`=`country`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `cities`
+JOIN `countries` ON `city`.`countryid`=`country`.`id`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\HotelManagement.php(104): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+ERROR - 2024-12-07 14:25:48 --> mysqli_sql_exception: Unknown column 'city.countryid' in 'on clause' in C:\xampp\htdocs\TouristAgency\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\TouristAgency\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\TouristAgency\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\TouristAgency\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\TouristAgency\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\TouristAgency\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\TouristAgency\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\TouristAgency\app\Controllers\HotelManagement.php(104): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\TouristAgency\system\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+#8 C:\xampp\htdocs\TouristAgency\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+#9 C:\xampp\htdocs\TouristAgency\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\TouristAgency\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\TouristAgency\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\TouristAgency\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\TouristAgency\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-12-07 14:25:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'city.countryid' in 'on clause'
+[Method: GET, Route: hotelManagement/hotel]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `cities`
+JOIN `countries` ON `city`.`countryid`=`country`.`id`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\HotelManagement.php(104): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 14:25:48 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'city.countryid' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `cities`
+JOIN `countries` ON `city`.`countryid`=`country`.`id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `cities`
+JOIN `countries` ON `city`.`countryid`=`country`.`id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `cities`
+JOIN `countries` ON `city`.`countryid`=`country`.`id`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\HotelManagement.php(104): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 14:25:48 --> [Caused by] mysqli_sql_exception: Unknown column 'city.countryid' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `cities`
+JOIN `countries` ON `city`.`countryid`=`country`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `cities`
+JOIN `countries` ON `city`.`countryid`=`country`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `cities`
+JOIN `countries` ON `city`.`countryid`=`country`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `cities`
+JOIN `countries` ON `city`.`countryid`=`country`.`id`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\HotelManagement.php(104): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 14:26:41 --> Error: Object of class App\Models\CityModel could not be converted to string
+[Method: GET, Route: hotelManagement/hotel]
+in APPPATH\Views\HotelManagement\hotel.php on line 31.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/HotelManagement/hotel', [], true)
+ 4 APPPATH\Controllers\HotelManagement.php(105): view('/HotelManagement/hotel', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 14:26:47 --> Error: Cannot use object of type App\Models\CityModel as array
+[Method: GET, Route: hotelManagement/hotel]
+in APPPATH\Views\HotelManagement\hotel.php on line 31.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/HotelManagement/hotel', [], true)
+ 4 APPPATH\Controllers\HotelManagement.php(105): view('/HotelManagement/hotel', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 14:26:58 --> Error: Cannot use object of type App\Models\CityModel as array
+[Method: GET, Route: hotelManagement/hotel]
+in APPPATH\Views\HotelManagement\hotel.php on line 31.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/HotelManagement/hotel', [], true)
+ 4 APPPATH\Controllers\HotelManagement.php(105): view('/HotelManagement/hotel', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 14:27:01 --> Error: Cannot use object of type App\Models\CityModel as array
+[Method: GET, Route: hotelManagement/hotel]
+in APPPATH\Views\HotelManagement\hotel.php on line 31.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/HotelManagement/hotel', [], true)
+ 4 APPPATH\Controllers\HotelManagement.php(105): view('/HotelManagement/hotel', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 14:27:08 --> Error: Cannot use object of type App\Models\CityModel as array
+[Method: GET, Route: hotelManagement/hotel]
+in APPPATH\Views\HotelManagement\hotel.php on line 31.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/HotelManagement/hotel', [], true)
+ 4 APPPATH\Controllers\HotelManagement.php(105): view('/HotelManagement/hotel', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 14:27:10 --> Error: Cannot use object of type App\Models\CityModel as array
+[Method: GET, Route: hotelManagement/hotel]
+in APPPATH\Views\HotelManagement\hotel.php on line 31.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/HotelManagement/hotel', [], true)
+ 4 APPPATH\Controllers\HotelManagement.php(105): view('/HotelManagement/hotel', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 14:30:20 --> Error: Cannot use object of type App\Models\TestModel as array
+[Method: GET, Route: hotelManagement/hotel]
+in APPPATH\Controllers\HotelManagement.php on line 105.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 14:30:42 --> Error: Cannot use object of type App\Models\TestModel as array
+[Method: GET, Route: hotelManagement/hotel]
+in APPPATH\Controllers\HotelManagement.php on line 105.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 14:30:53 --> Error: Cannot use object of type App\Models\TestModel as array
+[Method: GET, Route: hotelManagement/hotel]
+in APPPATH\Controllers\HotelManagement.php on line 105.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 14:30:56 --> Error: Cannot use object of type App\Models\TestModel as array
+[Method: GET, Route: hotelManagement/hotel]
+in APPPATH\Controllers\HotelManagement.php on line 105.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 14:40:09 --> Error: Cannot use object of type App\Models\TestModel as array
+[Method: GET, Route: hotelManagement/hotel]
+in APPPATH\Controllers\HotelManagement.php on line 105.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 14:40:16 --> Error: Cannot use object of type App\Models\TestModel as array
+[Method: GET, Route: hotelManagement/hotel]
+in APPPATH\Controllers\HotelManagement.php on line 105.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 14:40:19 --> Error: Cannot use object of type App\Models\TestModel as array
+[Method: GET, Route: hotelManagement/hotel]
+in APPPATH\Controllers\HotelManagement.php on line 105.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 14:40:43 --> Error: Cannot use object of type App\Models\TestModel as array
+[Method: GET, Route: hotelManagement/hotel]
+in APPPATH\Controllers\HotelManagement.php on line 105.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 14:40:46 --> Error: Cannot use object of type App\Models\TestModel as array
+[Method: GET, Route: hotelManagement/hotel]
+in APPPATH\Controllers\HotelManagement.php on line 105.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 14:40:47 --> Error: Cannot use object of type App\Models\TestModel as array
+[Method: GET, Route: hotelManagement/hotel]
+in APPPATH\Controllers\HotelManagement.php on line 105.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 14:41:08 --> Error: Cannot use object of type App\Models\TestModel as array
+[Method: GET, Route: hotelManagement/hotel]
+in APPPATH\Controllers\HotelManagement.php on line 105.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 14:43:19 --> TypeError: CodeIgniter\Database\BaseBuilder::select(): Argument #2 ($escape) must be of type ?bool, string given, called in C:\xampp\htdocs\TouristAgency\system\Model.php on line 930
+[Method: GET, Route: hotelManagement/hotel]
+in SYSTEMPATH\Database\BaseBuilder.php on line 398.
+ 1 SYSTEMPATH\Model.php(930): CodeIgniter\Database\BaseBuilder->select('city', 'country')
+ 2 APPPATH\Controllers\HotelManagement.php(105): CodeIgniter\Model->__call('select', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 14:43:23 --> TypeError: CodeIgniter\Database\BaseBuilder::select(): Argument #2 ($escape) must be of type ?bool, string given, called in C:\xampp\htdocs\TouristAgency\system\Model.php on line 930
+[Method: GET, Route: hotelManagement/hotel]
+in SYSTEMPATH\Database\BaseBuilder.php on line 398.
+ 1 SYSTEMPATH\Model.php(930): CodeIgniter\Database\BaseBuilder->select('city', 'country')
+ 2 APPPATH\Controllers\HotelManagement.php(105): CodeIgniter\Model->__call('select', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 14:43:38 --> TypeError: CodeIgniter\Database\BaseBuilder::select(): Argument #2 ($escape) must be of type ?bool, string given, called in C:\xampp\htdocs\TouristAgency\system\Model.php on line 930
+[Method: GET, Route: hotelManagement/hotel]
+in SYSTEMPATH\Database\BaseBuilder.php on line 398.
+ 1 SYSTEMPATH\Model.php(930): CodeIgniter\Database\BaseBuilder->select('city', 'country')
+ 2 APPPATH\Controllers\HotelManagement.php(105): CodeIgniter\Model->__call('select', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 14:43:41 --> TypeError: CodeIgniter\Database\BaseBuilder::select(): Argument #2 ($escape) must be of type ?bool, string given, called in C:\xampp\htdocs\TouristAgency\system\Model.php on line 930
+[Method: GET, Route: hotelManagement/hotel]
+in SYSTEMPATH\Database\BaseBuilder.php on line 398.
+ 1 SYSTEMPATH\Model.php(930): CodeIgniter\Database\BaseBuilder->select('city', 'country')
+ 2 APPPATH\Controllers\HotelManagement.php(105): CodeIgniter\Model->__call('select', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 14:46:07 --> ErrorException: Attempt to read property "city" on array
+[Method: GET, Route: hotelManagement/hotel]
+in APPPATH\Views\HotelManagement\hotel.php on line 29.
+ 1 APPPATH\Views\HotelManagement\hotel.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "city" on array', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\HotelManagement\\hotel.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\HotelManagement\\hotel.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/HotelManagement/hotel', [], true)
+ 5 APPPATH\Controllers\HotelManagement.php(106): view('/HotelManagement/hotel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 14:46:22 --> ErrorException: Undefined array key "city"
+[Method: GET, Route: hotelManagement/hotel]
+in APPPATH\Views\HotelManagement\hotel.php on line 29.
+ 1 APPPATH\Views\HotelManagement\hotel.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "city"', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\HotelManagement\\hotel.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\HotelManagement\\hotel.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/HotelManagement/hotel', [], true)
+ 5 APPPATH\Controllers\HotelManagement.php(106): view('/HotelManagement/hotel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 14:46:30 --> ErrorException: Attempt to read property "city" on array
+[Method: GET, Route: hotelManagement/hotel]
+in APPPATH\Views\HotelManagement\hotel.php on line 29.
+ 1 APPPATH\Views\HotelManagement\hotel.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "city" on array', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\HotelManagement\\hotel.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\HotelManagement\\hotel.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/HotelManagement/hotel', [], true)
+ 5 APPPATH\Controllers\HotelManagement.php(106): view('/HotelManagement/hotel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 14:47:15 --> ErrorException: Undefined array key "city"
+[Method: GET, Route: hotelManagement/hotel]
+in APPPATH\Views\HotelManagement\hotel.php on line 31.
+ 1 APPPATH\Views\HotelManagement\hotel.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "city"', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\HotelManagement\\hotel.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\HotelManagement\\hotel.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/HotelManagement/hotel', [], true)
+ 5 APPPATH\Controllers\HotelManagement.php(106): view('/HotelManagement/hotel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 14:47:22 --> ErrorException: Undefined array key "city"
+[Method: GET, Route: hotelManagement/hotel]
+in APPPATH\Views\HotelManagement\hotel.php on line 31.
+ 1 APPPATH\Views\HotelManagement\hotel.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "city"', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\HotelManagement\\hotel.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\HotelManagement\\hotel.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/HotelManagement/hotel', [], true)
+ 5 APPPATH\Controllers\HotelManagement.php(106): view('/HotelManagement/hotel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 14:47:50 --> ErrorException: Undefined array key "city"
+[Method: GET, Route: hotelManagement/hotel]
+in APPPATH\Views\HotelManagement\hotel.php on line 31.
+ 1 APPPATH\Views\HotelManagement\hotel.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "city"', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\HotelManagement\\hotel.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\HotelManagement\\hotel.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/HotelManagement/hotel', [], true)
+ 5 APPPATH\Controllers\HotelManagement.php(106): view('/HotelManagement/hotel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 14:47:54 --> ErrorException: Undefined array key "city"
+[Method: GET, Route: hotelManagement/hotel]
+in APPPATH\Views\HotelManagement\hotel.php on line 32.
+ 1 APPPATH\Views\HotelManagement\hotel.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "city"', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\HotelManagement\\hotel.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\HotelManagement\\hotel.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/HotelManagement/hotel', [], true)
+ 5 APPPATH\Controllers\HotelManagement.php(106): view('/HotelManagement/hotel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 14:48:03 --> ErrorException: Attempt to read property "country" on array
+[Method: GET, Route: hotelManagement/hotel]
+in APPPATH\Views\HotelManagement\hotel.php on line 34.
+ 1 APPPATH\Views\HotelManagement\hotel.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "country" on array', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\HotelManagement\\hotel.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\HotelManagement\\hotel.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/HotelManagement/hotel', [], true)
+ 5 APPPATH\Controllers\HotelManagement.php(106): view('/HotelManagement/hotel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 14:54:03 --> Error: Cannot use object of type App\Entities\City as array
+[Method: GET, Route: hotelManagement/hotel]
+in APPPATH\Views\HotelManagement\hotel.php on line 33.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/HotelManagement/hotel', [], true)
+ 4 APPPATH\Controllers\HotelManagement.php(106): view('/HotelManagement/hotel', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 14:54:07 --> Error: Cannot use object of type App\Entities\City as array
+[Method: GET, Route: hotelManagement/hotel]
+in APPPATH\Views\HotelManagement\hotel.php on line 33.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/HotelManagement/hotel', [], true)
+ 4 APPPATH\Controllers\HotelManagement.php(106): view('/HotelManagement/hotel', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 14:56:24 --> Error: Object of class App\Entities\City could not be converted to string
+[Method: GET, Route: hotelManagement/hotel]
+in APPPATH\Views\HotelManagement\hotel.php on line 34.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/HotelManagement/hotel', [], true)
+ 4 APPPATH\Controllers\HotelManagement.php(106): view('/HotelManagement/hotel', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 14:58:49 --> Error: Cannot use object of type App\Entities\City as array
+[Method: GET, Route: hotelManagement/hotel]
+in APPPATH\Views\HotelManagement\hotel.php on line 33.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/HotelManagement/hotel', [], true)
+ 4 APPPATH\Controllers\HotelManagement.php(106): view('/HotelManagement/hotel', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 14:59:02 --> Error: Cannot use object of type App\Entities\City as array
+[Method: GET, Route: hotelManagement/hotel]
+in APPPATH\Views\HotelManagement\hotel.php on line 33.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/HotelManagement/hotel', [], true)
+ 4 APPPATH\Controllers\HotelManagement.php(106): view('/HotelManagement/hotel', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 15:10:25 --> ErrorException: Attempt to read property "id" on string
+[Method: GET, Route: hotelManagement/hotel]
+in APPPATH\Views\HotelManagement\hotel.php on line 21.
+ 1 APPPATH\Views\HotelManagement\hotel.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on string', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\HotelManagement\\hotel.php', 21)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\HotelManagement\\hotel.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/HotelManagement/hotel', [], true)
+ 5 APPPATH\Controllers\HotelManagement.php(103): view('/HotelManagement/hotel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 15:14:01 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: hotelManagement/hotel]
+in APPPATH\Views\HotelManagement\hotel.php on line 21.
+ 1 APPPATH\Views\HotelManagement\hotel.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\HotelManagement\\hotel.php', 21)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\HotelManagement\\hotel.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/HotelManagement/hotel', [], true)
+ 5 APPPATH\Controllers\HotelManagement.php(103): view('/HotelManagement/hotel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+ERROR - 2024-12-07 15:19:02 --> mysqli_sql_exception: Column 'id' in field list is ambiguous in C:\xampp\htdocs\TouristAgency\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\TouristAgency\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `id`\nFRO...', 0)
+#1 C:\xampp\htdocs\TouristAgency\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`\nFRO...')
+#2 C:\xampp\htdocs\TouristAgency\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`\nFRO...')
+#3 C:\xampp\htdocs\TouristAgency\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#4 C:\xampp\htdocs\TouristAgency\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\TouristAgency\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\TouristAgency\app\Controllers\HotelManagement.php(103): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\TouristAgency\system\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+#8 C:\xampp\htdocs\TouristAgency\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+#9 C:\xampp\htdocs\TouristAgency\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\TouristAgency\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\TouristAgency\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\TouristAgency\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\TouristAgency\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-12-07 15:19:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'id' in field list is ambiguous
+[Method: GET, Route: hotelManagement/hotel]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `countries`
+JOIN `cities` ON `cities`.`countryid`=`countries`.`id`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\HotelManagement.php(103): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 15:19:02 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'id' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`
+FROM `countries`
+JOIN `cities` ON `cities`.`countryid`=`countries`.`id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`
+FROM `countries`
+JOIN `cities` ON `cities`.`countryid`=`countries`.`id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `countries`
+JOIN `cities` ON `cities`.`countryid`=`countries`.`id`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\HotelManagement.php(103): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 15:19:02 --> [Caused by] mysqli_sql_exception: Column 'id' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `id`
+FROM `countries`
+JOIN `cities` ON `cities`.`countryid`=`countries`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`
+FROM `countries`
+JOIN `cities` ON `cities`.`countryid`=`countries`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`
+FROM `countries`
+JOIN `cities` ON `cities`.`countryid`=`countries`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `countries`
+JOIN `cities` ON `cities`.`countryid`=`countries`.`id`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\HotelManagement.php(103): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+ERROR - 2024-12-07 15:19:06 --> mysqli_sql_exception: Column 'id' in field list is ambiguous in C:\xampp\htdocs\TouristAgency\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\TouristAgency\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `id`\nFRO...', 0)
+#1 C:\xampp\htdocs\TouristAgency\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`\nFRO...')
+#2 C:\xampp\htdocs\TouristAgency\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`\nFRO...')
+#3 C:\xampp\htdocs\TouristAgency\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#4 C:\xampp\htdocs\TouristAgency\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\TouristAgency\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\TouristAgency\app\Controllers\HotelManagement.php(103): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\TouristAgency\system\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+#8 C:\xampp\htdocs\TouristAgency\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+#9 C:\xampp\htdocs\TouristAgency\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\TouristAgency\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\TouristAgency\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\TouristAgency\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\TouristAgency\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-12-07 15:19:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'id' in field list is ambiguous
+[Method: GET, Route: hotelManagement/hotel]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `countries`
+JOIN `cities` ON `cities`.`countryid`=`countries`.`id`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\HotelManagement.php(103): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 15:19:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'id' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`
+FROM `countries`
+JOIN `cities` ON `cities`.`countryid`=`countries`.`id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`
+FROM `countries`
+JOIN `cities` ON `cities`.`countryid`=`countries`.`id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `countries`
+JOIN `cities` ON `cities`.`countryid`=`countries`.`id`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\HotelManagement.php(103): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 15:19:06 --> [Caused by] mysqli_sql_exception: Column 'id' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `id`
+FROM `countries`
+JOIN `cities` ON `cities`.`countryid`=`countries`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`
+FROM `countries`
+JOIN `cities` ON `cities`.`countryid`=`countries`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`
+FROM `countries`
+JOIN `cities` ON `cities`.`countryid`=`countries`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `countries`
+JOIN `cities` ON `cities`.`countryid`=`countries`.`id`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\HotelManagement.php(103): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->hotel()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 16:24:54 --> ErrorException: Undefined array key "cityId"
+[Method: POST, Route: hotelManagement/AddHotel]
+in APPPATH\Controllers\HotelManagement.php on line 111.
+ 1 APPPATH\Controllers\HotelManagement.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cityId"', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Controllers\\HotelManagement.php', 111)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->AddHotel()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 16:25:42 --> ErrorException: Undefined array key "cityId"
+[Method: POST, Route: hotelManagement/AddHotel]
+in APPPATH\Controllers\HotelManagement.php on line 111.
+ 1 APPPATH\Controllers\HotelManagement.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cityId"', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Controllers\\HotelManagement.php', 111)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->AddHotel()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 16:25:55 --> ErrorException: Undefined array key "cityId"
+[Method: POST, Route: hotelManagement/AddHotel]
+in APPPATH\Controllers\HotelManagement.php on line 111.
+ 1 APPPATH\Controllers\HotelManagement.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cityId"', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Controllers\\HotelManagement.php', 111)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->AddHotel()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 16:26:33 --> ErrorException: Undefined array key "cityId"
+[Method: POST, Route: hotelManagement/AddHotel]
+in APPPATH\Controllers\HotelManagement.php on line 111.
+ 1 APPPATH\Controllers\HotelManagement.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cityId"', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Controllers\\HotelManagement.php', 111)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->AddHotel()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 16:38:36 --> ErrorException: Attempt to read property "countryid" on array
+[Method: POST, Route: hotelManagement/AddHotel]
+in APPPATH\Controllers\HotelManagement.php on line 117.
+ 1 APPPATH\Controllers\HotelManagement.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "countryid" on array', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Controllers\\HotelManagement.php', 117)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->AddHotel()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 16:38:42 --> ErrorException: Attempt to read property "countryid" on array
+[Method: POST, Route: hotelManagement/AddHotel]
+in APPPATH\Controllers\HotelManagement.php on line 117.
+ 1 APPPATH\Controllers\HotelManagement.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "countryid" on array', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Controllers\\HotelManagement.php', 117)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->AddHotel()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 16:39:42 --> ErrorException: Attempt to read property "countryid" on array
+[Method: POST, Route: hotelManagement/AddHotel]
+in APPPATH\Controllers\HotelManagement.php on line 117.
+ 1 APPPATH\Controllers\HotelManagement.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "countryid" on array', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Controllers\\HotelManagement.php', 117)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->AddHotel()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 16:40:38 --> ErrorException: Attempt to read property "countryid" on array
+[Method: POST, Route: hotelManagement/AddHotel]
+in APPPATH\Controllers\HotelManagement.php on line 117.
+ 1 APPPATH\Controllers\HotelManagement.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "countryid" on array', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Controllers\\HotelManagement.php', 117)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->AddHotel()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 16:50:44 --> ErrorException: Attempt to read property "countryid" on array
+[Method: POST, Route: hotelManagement/AddHotel]
+in APPPATH\Controllers\HotelManagement.php on line 117.
+ 1 APPPATH\Controllers\HotelManagement.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "countryid" on array', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Controllers\\HotelManagement.php', 117)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->AddHotel()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-07 16:52:17 --> ErrorException: Attempt to read property "countryid" on array
+[Method: POST, Route: hotelManagement/AddHotel]
+in APPPATH\Controllers\HotelManagement.php on line 117.
+ 1 APPPATH\Controllers\HotelManagement.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "countryid" on array', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Controllers\\HotelManagement.php', 117)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->AddHotel()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')

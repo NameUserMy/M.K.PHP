@@ -1,0 +1,1563 @@
+CRITICAL - 2024-12-10 08:59:16 --> ErrorException: Undefined variable $cities
+[Method: GET, Route: tours]
+in APPPATH\Views\Tours\tours.php on line 9.
+ 1 APPPATH\Views\Tours\tours.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cities', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Tours/tours', [], true)
+ 5 APPPATH\Controllers\Tours.php(27): view('/Tours/tours', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tours->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tours))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 08:59:40 --> ErrorException: Undefined variable $cities
+[Method: GET, Route: tours]
+in APPPATH\Views\Tours\tours.php on line 9.
+ 1 APPPATH\Views\Tours\tours.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cities', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Tours/tours', [], true)
+ 5 APPPATH\Controllers\Tours.php(27): view('/Tours/tours', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tours->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tours))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 08:59:48 --> ErrorException: Undefined variable $cities
+[Method: GET, Route: tours]
+in APPPATH\Views\Tours\tours.php on line 9.
+ 1 APPPATH\Views\Tours\tours.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cities', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Tours/tours', [], true)
+ 5 APPPATH\Controllers\Tours.php(27): view('/Tours/tours', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tours->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tours))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 09:00:35 --> ErrorException: Undefined variable $cities
+[Method: GET, Route: tours]
+in APPPATH\Views\Tours\tours.php on line 9.
+ 1 APPPATH\Views\Tours\tours.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cities', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Tours/tours', [], true)
+ 5 APPPATH\Controllers\Tours.php(25): view('/Tours/tours', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tours->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tours))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 09:00:36 --> ErrorException: Undefined variable $cities
+[Method: GET, Route: tours]
+in APPPATH\Views\Tours\tours.php on line 9.
+ 1 APPPATH\Views\Tours\tours.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cities', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Tours/tours', [], true)
+ 5 APPPATH\Controllers\Tours.php(25): view('/Tours/tours', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tours->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tours))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 09:00:54 --> ErrorException: Undefined variable $cities
+[Method: GET, Route: tours]
+in APPPATH\Views\Tours\tours.php on line 9.
+ 1 APPPATH\Views\Tours\tours.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cities', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Tours/tours', [], true)
+ 5 APPPATH\Controllers\Tours.php(25): view('/Tours/tours', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tours->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tours))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 09:01:17 --> ErrorException: Undefined variable $cities
+[Method: GET, Route: tours]
+in APPPATH\Views\Tours\tours.php on line 9.
+ 1 APPPATH\Views\Tours\tours.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cities', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Tours/tours', [], true)
+ 5 APPPATH\Controllers\Tours.php(25): view('/Tours/tours', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tours->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tours))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 09:01:17 --> ErrorException: Undefined variable $cities
+[Method: GET, Route: tours]
+in APPPATH\Views\Tours\tours.php on line 9.
+ 1 APPPATH\Views\Tours\tours.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cities', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Tours/tours', [], true)
+ 5 APPPATH\Controllers\Tours.php(25): view('/Tours/tours', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tours->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tours))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 09:01:17 --> ErrorException: Undefined variable $cities
+[Method: GET, Route: tours]
+in APPPATH\Views\Tours\tours.php on line 9.
+ 1 APPPATH\Views\Tours\tours.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cities', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Tours/tours', [], true)
+ 5 APPPATH\Controllers\Tours.php(25): view('/Tours/tours', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tours->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tours))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 09:01:17 --> ErrorException: Undefined variable $cities
+[Method: GET, Route: tours]
+in APPPATH\Views\Tours\tours.php on line 9.
+ 1 APPPATH\Views\Tours\tours.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cities', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Tours/tours', [], true)
+ 5 APPPATH\Controllers\Tours.php(25): view('/Tours/tours', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tours->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tours))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 09:01:17 --> ErrorException: Undefined variable $cities
+[Method: GET, Route: tours]
+in APPPATH\Views\Tours\tours.php on line 9.
+ 1 APPPATH\Views\Tours\tours.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cities', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Tours/tours', [], true)
+ 5 APPPATH\Controllers\Tours.php(25): view('/Tours/tours', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tours->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tours))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 09:01:51 --> ErrorException: Undefined variable $cities
+[Method: GET, Route: tours]
+in APPPATH\Views\Tours\tours.php on line 9.
+ 1 APPPATH\Views\Tours\tours.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cities', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Tours/tours', [], true)
+ 5 APPPATH\Controllers\Tours.php(25): view('/Tours/tours', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tours->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tours))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 09:06:53 --> ErrorException: Undefined variable $cities
+[Method: GET, Route: tours]
+in APPPATH\Views\Tours\tours.php on line 10.
+ 1 APPPATH\Views\Tours\tours.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cities', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php', 10)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Tours/tours', [], true)
+ 5 APPPATH\Controllers\Tours.php(36): view('/Tours/tours', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tours->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tours))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 09:07:49 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given
+[Method: GET, Route: tours]
+in APPPATH\Views\Tours\tours.php on line 10.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Tours/tours', [], true)
+ 4 APPPATH\Controllers\Tours.php(36): view('/Tours/tours', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tours->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tours))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 09:07:49 --> [Caused by] ErrorException: Undefined variable $cities
+in APPPATH\Views\Tours\tours.php on line 10.
+ 1 APPPATH\Views\Tours\tours.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cities', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php', 10)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Tours/tours', [], true)
+ 5 APPPATH\Controllers\Tours.php(36): view('/Tours/tours', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tours->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tours))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 09:22:56 --> ErrorException: Undefined variable $countries
+[Method: POST, Route: tours/SelectCity]
+in APPPATH\Views\Tours\tours.php on line 8.
+ 1 APPPATH\Views\Tours\tours.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $countries', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php', 8)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Tours/tours', [], true)
+ 5 APPPATH\Controllers\Tours.php(47): view('/Tours/tours', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tours->SelectCity()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tours))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 09:23:24 --> ErrorException: Undefined variable $countries
+[Method: POST, Route: tours/SelectCity]
+in APPPATH\Views\Tours\tours.php on line 8.
+ 1 APPPATH\Views\Tours\tours.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $countries', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php', 8)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Tours/tours', [], true)
+ 5 APPPATH\Controllers\Tours.php(47): view('/Tours/tours', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tours->SelectCity()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tours))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 09:23:43 --> ErrorException: Undefined variable $countries
+[Method: POST, Route: tours/SelectCity]
+in APPPATH\Views\Tours\tours.php on line 8.
+ 1 APPPATH\Views\Tours\tours.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $countries', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php', 8)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Tours/tours', [], true)
+ 5 APPPATH\Controllers\Tours.php(47): view('/Tours/tours', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tours->SelectCity()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tours))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 09:24:00 --> ErrorException: Undefined variable $countries
+[Method: POST, Route: tours/SelectCity]
+in APPPATH\Views\Tours\tours.php on line 8.
+ 1 APPPATH\Views\Tours\tours.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $countries', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php', 8)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Tours/tours', [], true)
+ 5 APPPATH\Controllers\Tours.php(47): view('/Tours/tours', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tours->SelectCity()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tours))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 09:24:08 --> ErrorException: Undefined variable $countries
+[Method: POST, Route: tours/SelectCity]
+in APPPATH\Views\Tours\tours.php on line 8.
+ 1 APPPATH\Views\Tours\tours.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $countries', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php', 8)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Tours/tours', [], true)
+ 5 APPPATH\Controllers\Tours.php(47): view('/Tours/tours', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tours->SelectCity()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tours))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 09:26:16 --> ErrorException: Undefined variable $countries
+[Method: POST, Route: tours/selectCity]
+in APPPATH\Views\Tours\tours.php on line 8.
+ 1 APPPATH\Views\Tours\tours.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $countries', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php', 8)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Tours/tours', [], true)
+ 5 APPPATH\Controllers\Tours.php(47): view('/Tours/tours', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tours->SelectCity()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tours))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 09:27:17 --> ErrorException: Undefined variable $countries
+[Method: POST, Route: tours]
+in APPPATH\Views\Tours\tours.php on line 8.
+ 1 APPPATH\Views\Tours\tours.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $countries', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php', 8)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Tours/tours', [], true)
+ 5 APPPATH\Controllers\Tours.php(47): view('/Tours/tours', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tours->SelectCity()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tours))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 09:27:52 --> ErrorException: Undefined variable $countries
+[Method: POST, Route: tours]
+in APPPATH\Views\Tours\tours.php on line 8.
+ 1 APPPATH\Views\Tours\tours.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $countries', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php', 8)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Tours/tours', [], true)
+ 5 APPPATH\Controllers\Tours.php(47): view('/Tours/tours', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tours->SelectCity()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tours))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 09:27:54 --> ErrorException: Undefined variable $countries
+[Method: POST, Route: tours]
+in APPPATH\Views\Tours\tours.php on line 8.
+ 1 APPPATH\Views\Tours\tours.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $countries', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php', 8)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Tours/tours', [], true)
+ 5 APPPATH\Controllers\Tours.php(47): view('/Tours/tours', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tours->SelectCity()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tours))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 09:27:54 --> ErrorException: Undefined variable $countries
+[Method: POST, Route: tours]
+in APPPATH\Views\Tours\tours.php on line 8.
+ 1 APPPATH\Views\Tours\tours.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $countries', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php', 8)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Tours/tours', [], true)
+ 5 APPPATH\Controllers\Tours.php(47): view('/Tours/tours', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tours->SelectCity()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tours))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 09:27:54 --> ErrorException: Undefined variable $countries
+[Method: POST, Route: tours]
+in APPPATH\Views\Tours\tours.php on line 8.
+ 1 APPPATH\Views\Tours\tours.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $countries', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php', 8)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Tours/tours', [], true)
+ 5 APPPATH\Controllers\Tours.php(47): view('/Tours/tours', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tours->SelectCity()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tours))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 09:28:28 --> ErrorException: Undefined variable $countries
+[Method: POST, Route: tours]
+in APPPATH\Views\Tours\tours.php on line 8.
+ 1 APPPATH\Views\Tours\tours.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $countries', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php', 8)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Tours/tours', [], true)
+ 5 APPPATH\Controllers\Tours.php(47): view('/Tours/tours')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tours->SelectCity()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tours))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 09:30:57 --> ErrorException: Undefined variable $countries
+[Method: POST, Route: tours]
+in APPPATH\Views\Tours\tours.php on line 8.
+ 1 APPPATH\Views\Tours\tours.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $countries', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php', 8)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Tours/tours', [], true)
+ 5 APPPATH\Controllers\Tours.php(48): view('/Tours/tours')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tours->SelectCity()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tours))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 09:31:44 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "/Tours/tours" cannot be found.
+[Method: POST, Route: tours]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 64.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('/Tours/tours')
+ 2 SYSTEMPATH\Common.php(853): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Tours.php(48): redirect('/Tours/tours')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tours->SelectCity()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tours))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 09:31:49 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "/Tours/tours" cannot be found.
+[Method: POST, Route: tours]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 64.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('/Tours/tours')
+ 2 SYSTEMPATH\Common.php(853): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Tours.php(48): redirect('/Tours/tours')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tours->SelectCity()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tours))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 09:31:57 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "/Tours/tours" cannot be found.
+[Method: POST, Route: tours]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 64.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('/Tours/tours')
+ 2 SYSTEMPATH\Common.php(853): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Tours.php(48): redirect('/Tours/tours')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tours->SelectCity()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tours))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 09:33:49 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "/Tours/tours" cannot be found.
+[Method: POST, Route: tours]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 64.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('/Tours/tours')
+ 2 SYSTEMPATH\Common.php(853): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Tours.php(48): redirect('/Tours/tours')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tours->SelectCity()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tours))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 09:34:33 --> ErrorException: Undefined variable $countries
+[Method: POST, Route: tours]
+in APPPATH\Views\Tours\tours.php on line 8.
+ 1 APPPATH\Views\Tours\tours.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $countries', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php', 8)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Tours/tours', [], true)
+ 5 APPPATH\Controllers\Tours.php(48): view('/Tours/tours')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tours->SelectCity()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tours))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 10:02:24 --> ErrorException: Undefined variable $selectedCountry
+[Method: GET, Route: tours]
+in APPPATH\Views\Tours\tours.php on line 8.
+ 1 APPPATH\Views\Tours\tours.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $selectedCountry', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php', 8)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Tours/tours', [], true)
+ 5 APPPATH\Controllers\Tours.php(28): view('/Tours/tours', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tours->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tours))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 10:02:27 --> ErrorException: Undefined variable $selectedCountry
+[Method: GET, Route: tours]
+in APPPATH\Views\Tours\tours.php on line 8.
+ 1 APPPATH\Views\Tours\tours.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $selectedCountry', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php', 8)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Tours/tours', [], true)
+ 5 APPPATH\Controllers\Tours.php(28): view('/Tours/tours', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tours->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tours))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 10:02:35 --> ErrorException: Undefined variable $selectedCountry
+[Method: GET, Route: tours]
+in APPPATH\Views\Tours\tours.php on line 8.
+ 1 APPPATH\Views\Tours\tours.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $selectedCountry', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php', 8)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Tours/tours', [], true)
+ 5 APPPATH\Controllers\Tours.php(28): view('/Tours/tours', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tours->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tours))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 10:27:34 --> ErrorException: Undefined property: App\Controllers\Tours::$selected
+[Method: GET, Route: tours]
+in APPPATH\Controllers\Tours.php on line 32.
+ 1 APPPATH\Controllers\Tours.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Tours::$selected', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Controllers\\Tours.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tours->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tours))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 10:28:20 --> ErrorException: Undefined variable $selectedCity
+[Method: POST, Route: tours]
+in APPPATH\Views\Tours\tours.php on line 12.
+ 1 APPPATH\Views\Tours\tours.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $selectedCity', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Tours/tours', [], true)
+ 5 APPPATH\Controllers\Tours.php(49): view('/Tours/tours', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tours->SelectCity()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tours))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 12:01:35 --> ErrorException: Attempt to read property "hotel" on array
+[Method: POST, Route: tours]
+in APPPATH\Views\Tours\tours.php on line 30.
+ 1 APPPATH\Views\Tours\tours.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "hotel" on array', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php', 30)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Tours/tours', [], true)
+ 5 APPPATH\Controllers\Tours.php(57): view('/Tours/tours', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tours->SelectCity()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tours))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 12:03:38 --> ErrorException: Attempt to read property "hotel" on array
+[Method: POST, Route: tours]
+in APPPATH\Views\Tours\tours.php on line 30.
+ 1 APPPATH\Views\Tours\tours.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "hotel" on array', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php', 30)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Tours/tours', [], true)
+ 5 APPPATH\Controllers\Tours.php(57): view('/Tours/tours', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tours->SelectCity()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tours))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 12:03:46 --> ErrorException: Attempt to read property "hotel" on array
+[Method: POST, Route: tours]
+in APPPATH\Views\Tours\tours.php on line 30.
+ 1 APPPATH\Views\Tours\tours.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "hotel" on array', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php', 30)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Tours\\tours.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Tours/tours', [], true)
+ 5 APPPATH\Controllers\Tours.php(57): view('/Tours/tours', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tours->SelectCity()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tours))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 17:09:52 --> ErrorException: Attempt to read property "imagepath" on null
+[Method: GET, Route: hotels]
+in APPPATH\Views\Hotels\hotels.php on line 12.
+ 1 APPPATH\Views\Hotels\hotels.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "imagepath" on null', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Hotels\\hotels.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Hotels\\hotels.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Hotels/hotels', [], true)
+ 5 APPPATH\Controllers\Hotels.php(23): view('/Hotels/hotels', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 17:10:14 --> ErrorException: Attempt to read property "imagepath" on null
+[Method: GET, Route: hotels]
+in APPPATH\Views\Hotels\hotels.php on line 12.
+ 1 APPPATH\Views\Hotels\hotels.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "imagepath" on null', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Hotels\\hotels.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Hotels\\hotels.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Hotels/hotels', [], true)
+ 5 APPPATH\Controllers\Hotels.php(23): view('/Hotels/hotels', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 17:53:40 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{"
+[Method: GET, Route: %7B]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 17:53:50 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{"
+[Method: GET, Route: %7B]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 17:54:07 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{"
+[Method: GET, Route: %7B]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 17:54:07 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{"
+[Method: GET, Route: %7B]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 17:54:08 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{"
+[Method: GET, Route: %7B]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 17:54:10 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{"
+[Method: GET, Route: %7B]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 19:33:37 --> Error: Call to a member function where() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 19:33:44 --> Error: Call to a member function where() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 19:33:54 --> ErrorException: Undefined variable $hotel
+[Method: GET, Route: hotels]
+in APPPATH\Views\Hotels\hotels.php on line 6.
+ 1 APPPATH\Views\Hotels\hotels.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $hotel', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Hotels\\hotels.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Hotels\\hotels.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Hotels/hotels', [], true)
+ 5 APPPATH\Controllers\Hotels.php(32): view('/Hotels/hotels')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 19:34:01 --> ErrorException: Undefined variable $hotel
+[Method: GET, Route: hotels]
+in APPPATH\Views\Hotels\hotels.php on line 6.
+ 1 APPPATH\Views\Hotels\hotels.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $hotel', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Hotels\\hotels.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Hotels\\hotels.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Hotels/hotels', [], true)
+ 5 APPPATH\Controllers\Hotels.php(32): view('/Hotels/hotels')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 19:34:08 --> ErrorException: Undefined variable $hotel
+[Method: GET, Route: hotels]
+in APPPATH\Views\Hotels\hotels.php on line 6.
+ 1 APPPATH\Views\Hotels\hotels.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $hotel', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Hotels\\hotels.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Hotels\\hotels.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Hotels/hotels', [], true)
+ 5 APPPATH\Controllers\Hotels.php(32): view('/Hotels/hotels')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 19:34:24 --> Error: Call to a member function where() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 19:44:33 --> Error: Call to a member function where() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 19:44:40 --> Error: Call to a member function where() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 19:44:40 --> Error: Call to a member function where() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 19:44:40 --> Error: Call to a member function where() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 19:46:44 --> Error: Call to a member function where() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 19:47:34 --> Error: Call to a member function where() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 19:47:54 --> Error: Call to a member function where() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 19:48:44 --> Error: Call to a member function where() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 19:48:58 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 19:49:20 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 19:49:20 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 19:49:20 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 19:50:32 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 19:51:23 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 19:51:41 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 19:52:34 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 19:52:49 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 19:53:57 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 19:54:04 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 19:56:57 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 19:57:29 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 19:57:29 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 19:57:29 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 19:57:29 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 19:57:29 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 19:57:30 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 19:57:40 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 19:58:09 --> Error: Call to a member function find() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 19:58:25 --> Error: Call to a member function find() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 19:58:34 --> Error: Call to a member function find() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 20:00:18 --> Error: Call to a member function find() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 20:03:46 --> Error: Call to a member function find() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 20:04:25 --> Error: Call to a member function find() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 20:08:10 --> Error: Call to a member function find() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 20:08:39 --> Error: Call to a member function find() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 20:10:13 --> Error: Call to a member function find() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 20:10:39 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 20:10:54 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 20:10:56 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 20:10:57 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 20:12:12 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 20:12:46 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 20:12:58 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 20:13:02 --> ErrorException: Undefined variable $hotel
+[Method: GET, Route: hotels]
+in APPPATH\Views\Hotels\hotels.php on line 6.
+ 1 APPPATH\Views\Hotels\hotels.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $hotel', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Hotels\\hotels.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Hotels\\hotels.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Hotels/hotels', [], true)
+ 5 APPPATH\Controllers\Hotels.php(33): view('/Hotels/hotels')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 20:13:22 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 20:14:45 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 20:16:01 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 20:16:47 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 20:17:12 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 20:18:06 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 20:18:33 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 20:18:45 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 20:19:09 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 20:23:27 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 20:23:28 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 20:23:28 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 20:23:28 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 20:23:28 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 20:23:28 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 20:23:28 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 20:23:29 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 20:23:29 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 20:23:29 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 20:23:30 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 20:24:34 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 20:25:28 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 20:25:44 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 20:27:45 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 20:28:32 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 20:31:02 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 20:31:07 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 20:31:38 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 20:31:45 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 20:32:26 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 20:32:35 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 20:33:28 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 20:34:49 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: hotels]
+in APPPATH\Controllers\Hotels.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-10 20:35:50 --> TypeError: mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, App\Entities\CommentsUser given
+[Method: GET, Route: hotels]
+in SYSTEMPATH\Database\MySQLi\Result.php on line 156.
+ 1 SYSTEMPATH\Database\MySQLi\Result.php(156): mysqli_result->fetch_object('App\\Entities\\CommentsUser')
+ 2 SYSTEMPATH\Database\BaseResult.php(161): CodeIgniter\Database\MySQLi\Result->fetchObject('App\\Entities\\CommentsUser')
+ 3 SYSTEMPATH\Database\BaseResult.php(116): CodeIgniter\Database\BaseResult->getCustomResultObject('App\\Entities\\CommentsUser')
+ 4 SYSTEMPATH\Model.php(287): CodeIgniter\Database\BaseResult->getResult('App\\Entities\\CommentsUser')
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Hotels.php(19): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Hotels->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hotels))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')

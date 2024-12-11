@@ -1,0 +1,138 @@
+ERROR - 2024-12-06 04:48:03 --> Error connecting to the database: mysqli_sql_exception: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение in C:\xampp\htdocs\TouristAgency\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp\htdocs\TouristAgency\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'touristagency', 3306, '', 0)
+#1 C:\xampp\htdocs\TouristAgency\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\TouristAgency\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\TouristAgency\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\TouristAgency\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\TouristAgency\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\TouristAgency\app\Controllers\Loggin.php(18): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\TouristAgency\system\CodeIgniter.php(933): App\Controllers\Loggin->loggin()
+#8 C:\xampp\htdocs\TouristAgency\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loggin))
+#9 C:\xampp\htdocs\TouristAgency\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\TouristAgency\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\TouristAgency\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\TouristAgency\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\TouristAgency\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение in C:\xampp\htdocs\TouristAgency\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\TouristAgency\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\TouristAgency\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\TouristAgency\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\TouristAgency\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\TouristAgency\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\TouristAgency\app\Controllers\Loggin.php(18): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\TouristAgency\system\CodeIgniter.php(933): App\Controllers\Loggin->loggin()
+#7 C:\xampp\htdocs\TouristAgency\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loggin))
+#8 C:\xampp\htdocs\TouristAgency\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\TouristAgency\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\TouristAgency\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\TouristAgency\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\TouristAgency\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-12-06 04:48:03 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение
+[Method: POST, Route: loggin]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `login` = :login:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Loggin.php(18): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Loggin->loggin()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loggin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-06 08:14:44 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/City.php"
+[Method: GET, Route: hotelManagement]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/City.php')
+ 2 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('partials/City', null, true)
+ 3 APPPATH\Views\HotelManagement\hotelManagement.php(18): CodeIgniter\View\View->include('partials/City')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\HotelManagement\\hotelManagement.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/HotelManagement/hotelManagement', [], true)
+ 7 APPPATH\Controllers\HotelManagement.php(8): view('/HotelManagement/hotelManagement')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-06 08:14:52 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/city.php"
+[Method: GET, Route: hotelManagement]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/city.php')
+ 2 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('partials/city', null, true)
+ 3 APPPATH\Views\HotelManagement\hotelManagement.php(18): CodeIgniter\View\View->include('partials/city')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\HotelManagement\\hotelManagement.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/HotelManagement/hotelManagement', [], true)
+ 7 APPPATH\Controllers\HotelManagement.php(8): view('/HotelManagement/hotelManagement')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-06 08:15:09 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/city.php"
+[Method: GET, Route: hotelManagement]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/city.php')
+ 2 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('partials/city', null, true)
+ 3 APPPATH\Views\HotelManagement\hotelManagement.php(18): CodeIgniter\View\View->include('partials/city')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\HotelManagement\\hotelManagement.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/HotelManagement/hotelManagement', [], true)
+ 7 APPPATH\Controllers\HotelManagement.php(8): view('/HotelManagement/hotelManagement')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-06 08:15:13 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/city.php"
+[Method: GET, Route: hotelManagement]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/city.php')
+ 2 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('partials/city', null, true)
+ 3 APPPATH\Views\HotelManagement\hotelManagement.php(18): CodeIgniter\View\View->include('partials/city')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\HotelManagement\\hotelManagement.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/HotelManagement/hotelManagement', [], true)
+ 7 APPPATH\Controllers\HotelManagement.php(8): view('/HotelManagement/hotelManagement')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-06 08:15:17 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/city.php"
+[Method: GET, Route: hotelManagement]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/city.php')
+ 2 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('partials/city', null, true)
+ 3 APPPATH\Views\HotelManagement\hotelManagement.php(18): CodeIgniter\View\View->include('partials/city')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\HotelManagement\\hotelManagement.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/HotelManagement/hotelManagement', [], true)
+ 7 APPPATH\Controllers\HotelManagement.php(8): view('/HotelManagement/hotelManagement')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HotelManagement->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelManagement))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')

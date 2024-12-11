@@ -4,7 +4,7 @@ use CodeIgniter\Model;
 class UserModel extends Model {
     protected $table = 'users';
     protected $allowedFields = [
-        'login', 'pass', 'email','roleid' 
+        'login', 'pass', 'email','roleid','avatar'
     ];
 
     protected $validationsRules=[

@@ -1,0 +1,46 @@
+@import url(./forms/toursSelect.css);
+
+.tours-info {
+    display: grid;
+    grid-template-rows: 5vh repeat(auto-fill,5vh);
+    row-gap: 1vh;
+    width: 60vw;
+    border-radius: 2vh;
+    margin-left: auto;
+    height: 85vh;
+    position: relative;
+    background-color: rgb(82, 82, 82);
+}
+
+.tours-info fieldset {
+    background-color: rgb(82, 82, 82);
+    width: 15vw;
+    position: absolute;
+    left:-18vw
+}
+
+#header-tours{
+
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    border-bottom: 1px grey solid;
+    text-align: center;
+    align-content: center;
+    text-shadow: 1px 1px dimgrey;
+    font-size: 1.1rem;
+    font-weight: 600;
+
+
+}
+#all-info-hotel{
+
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    text-align: center;
+    align-content: center;
+    text-shadow: 1px 1px dimgrey;
+    font-size: 1.1rem;
+    font-weight: 600;
+
+
+}

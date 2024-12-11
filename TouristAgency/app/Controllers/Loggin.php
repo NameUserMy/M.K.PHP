@@ -17,11 +17,14 @@ class Loggin extends BaseController
                 $data = $this->request->getPost();
                 $whoIs = $this->user->where('login',$data['login'])->first();
                 if(password_verify($data['pass'],$whoIs->pass)){
+                    
                     if($whoIs->roleid==2){
+                        session()->remove('admin');
                         session()->set('user',$whoIs->login);
                     }
-                    if($whoIs->roleid==1)
+                    if($whoIs->roleid=='1')
                     {
+                        session()->remove('user');
                         session()->set('admin',$whoIs->login);
 
                     }

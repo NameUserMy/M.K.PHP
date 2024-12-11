@@ -1,0 +1,33 @@
+.content-comments{
+    display: grid;
+    grid-template-rows: 5vh 1fr;
+    row-gap: 5vh;
+    height: 85vh;
+    width: 40vw;
+    margin: 0 auto;
+}
+.header-comment{
+    text-align: center;
+    align-content: center;
+    text-shadow: 1px 1px dimgrey;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+#comment-form{
+    display: grid;
+    grid-template-rows: 5vh 30vh 7vh;
+    row-gap: 2vh;
+}
+
+#comment-form button{
+    width: 30vw;
+    margin: 0 auto;
+}
+
+#comment-form textarea{
+
+    resize: none;
+    background-color: transparent;
+    outline: none;
+    
+}

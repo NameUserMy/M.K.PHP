@@ -1,0 +1,1896 @@
+ERROR - 2024-12-05 11:22:11 --> Error connecting to the database: mysqli_sql_exception: ÐŸÐ¾Ð´ÐºÐ»ÑŽÑ‡ÐµÐ½Ð¸Ðµ Ð½Ðµ ÑƒÑÑ‚Ð°Ð½Ð¾Ð²Ð»ÐµÐ½Ð¾, Ñ‚.Ðº. ÐºÐ¾Ð½ÐµÑ‡Ð½Ñ‹Ð¹ ÐºÐ¾Ð¼Ð¿ÑŒÑŽÑ‚ÐµÑ€ Ð¾Ñ‚Ð²ÐµÑ€Ð³ Ð·Ð°Ð¿Ñ€Ð¾Ñ Ð½Ð° Ð¿Ð¾Ð´ÐºÐ»ÑŽÑ‡ÐµÐ½Ð¸Ðµ in C:\xampp\htdocs\TouristAgency\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp\htdocs\TouristAgency\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'touristagency', 3306, '', 0)
+#1 C:\xampp\htdocs\TouristAgency\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\TouristAgency\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\TouristAgency\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\TouristAgency\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\TouristAgency\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\TouristAgency\app\Controllers\Loggin.php(18): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\TouristAgency\system\CodeIgniter.php(933): App\Controllers\Loggin->loggin()
+#8 C:\xampp\htdocs\TouristAgency\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loggin))
+#9 C:\xampp\htdocs\TouristAgency\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\TouristAgency\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\TouristAgency\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\TouristAgency\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\TouristAgency\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: ÐŸÐ¾Ð´ÐºÐ»ÑŽÑ‡ÐµÐ½Ð¸Ðµ Ð½Ðµ ÑƒÑÑ‚Ð°Ð½Ð¾Ð²Ð»ÐµÐ½Ð¾, Ñ‚.Ðº. ÐºÐ¾Ð½ÐµÑ‡Ð½Ñ‹Ð¹ ÐºÐ¾Ð¼Ð¿ÑŒÑŽÑ‚ÐµÑ€ Ð¾Ñ‚Ð²ÐµÑ€Ð³ Ð·Ð°Ð¿Ñ€Ð¾Ñ Ð½Ð° Ð¿Ð¾Ð´ÐºÐ»ÑŽÑ‡ÐµÐ½Ð¸Ðµ in C:\xampp\htdocs\TouristAgency\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\TouristAgency\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\TouristAgency\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\TouristAgency\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\TouristAgency\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\TouristAgency\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\TouristAgency\app\Controllers\Loggin.php(18): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\TouristAgency\system\CodeIgniter.php(933): App\Controllers\Loggin->loggin()
+#7 C:\xampp\htdocs\TouristAgency\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loggin))
+#8 C:\xampp\htdocs\TouristAgency\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\TouristAgency\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\TouristAgency\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\TouristAgency\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\TouristAgency\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-12-05 11:22:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: ÐŸÐ¾Ð´ÐºÐ»ÑŽÑ‡ÐµÐ½Ð¸Ðµ Ð½Ðµ ÑƒÑÑ‚Ð°Ð½Ð¾Ð²Ð»ÐµÐ½Ð¾, Ñ‚.Ðº. ÐºÐ¾Ð½ÐµÑ‡Ð½Ñ‹Ð¹ ÐºÐ¾Ð¼Ð¿ÑŒÑŽÑ‚ÐµÑ€ Ð¾Ñ‚Ð²ÐµÑ€Ð³ Ð·Ð°Ð¿Ñ€Ð¾Ñ Ð½Ð° Ð¿Ð¾Ð´ÐºÐ»ÑŽÑ‡ÐµÐ½Ð¸Ðµ
+[Method: POST, Route: loggin]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `login` = :login:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Loggin.php(18): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Loggin->loggin()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loggin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 11:49:46 --> Error: Call to a member function set() on null
+[Method: POST, Route: loggin]
+in APPPATH\Controllers\Loggin.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Loggin->loggin()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loggin))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 12:07:18 --> ErrorException: Undefined variable $data
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\default.php on line 14.
+ 1 APPPATH\Views\layouts\default.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+ 6 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 12:08:08 --> ErrorException: Undefined variable $data
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\default.php on line 14.
+ 1 APPPATH\Views\layouts\default.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+ 6 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 15:05:12 --> ErrorException: Undefined variable $idU
+[Method: GET, Route: /]
+in APPPATH\Views\Home\index.php on line 4.
+ 1 APPPATH\Views\Home\index.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idU', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Home\\index.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Home\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+ 5 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 15:07:12 --> ErrorException: Undefined variable $idU
+[Method: GET, Route: userManagement]
+in APPPATH\Views\UserManagement\userManagement.php on line 6.
+ 1 APPPATH\Views\UserManagement\userManagement.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idU', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\UserManagement\\userManagement.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\UserManagement\\userManagement.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/UserManagement/userManagement', [], true)
+ 5 APPPATH\Controllers\UserManagement.php(17): view('/UserManagement/userManagement', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserManagement->userManagement()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 15:07:18 --> ErrorException: Undefined variable $idU
+[Method: GET, Route: userManagement]
+in APPPATH\Views\UserManagement\userManagement.php on line 6.
+ 1 APPPATH\Views\UserManagement\userManagement.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idU', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\UserManagement\\userManagement.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\UserManagement\\userManagement.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/UserManagement/userManagement', [], true)
+ 5 APPPATH\Controllers\UserManagement.php(17): view('/UserManagement/userManagement', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserManagement->userManagement()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 15:07:43 --> ErrorException: Undefined variable $idU
+[Method: GET, Route: userManagement]
+in APPPATH\Views\UserManagement\userManagement.php on line 6.
+ 1 APPPATH\Views\UserManagement\userManagement.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idU', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\UserManagement\\userManagement.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\UserManagement\\userManagement.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/UserManagement/userManagement', [], true)
+ 5 APPPATH\Controllers\UserManagement.php(17): view('/UserManagement/userManagement', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserManagement->userManagement()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 15:07:46 --> ErrorException: Undefined variable $idU
+[Method: GET, Route: userManagement]
+in APPPATH\Views\UserManagement\userManagement.php on line 6.
+ 1 APPPATH\Views\UserManagement\userManagement.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idU', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\UserManagement\\userManagement.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\UserManagement\\userManagement.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/UserManagement/userManagement', [], true)
+ 5 APPPATH\Controllers\UserManagement.php(17): view('/UserManagement/userManagement', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserManagement->userManagement()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 15:07:49 --> ErrorException: Undefined variable $idU
+[Method: GET, Route: userManagement]
+in APPPATH\Views\UserManagement\userManagement.php on line 6.
+ 1 APPPATH\Views\UserManagement\userManagement.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idU', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\UserManagement\\userManagement.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\UserManagement\\userManagement.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/UserManagement/userManagement', [], true)
+ 5 APPPATH\Controllers\UserManagement.php(17): view('/UserManagement/userManagement', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserManagement->userManagement()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 15:07:49 --> ErrorException: Undefined variable $idU
+[Method: GET, Route: userManagement]
+in APPPATH\Views\UserManagement\userManagement.php on line 6.
+ 1 APPPATH\Views\UserManagement\userManagement.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idU', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\UserManagement\\userManagement.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\UserManagement\\userManagement.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/UserManagement/userManagement', [], true)
+ 5 APPPATH\Controllers\UserManagement.php(17): view('/UserManagement/userManagement', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserManagement->userManagement()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 15:07:50 --> ErrorException: Undefined variable $idU
+[Method: GET, Route: userManagement]
+in APPPATH\Views\UserManagement\userManagement.php on line 6.
+ 1 APPPATH\Views\UserManagement\userManagement.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idU', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\UserManagement\\userManagement.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\UserManagement\\userManagement.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/UserManagement/userManagement', [], true)
+ 5 APPPATH\Controllers\UserManagement.php(17): view('/UserManagement/userManagement', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserManagement->userManagement()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 15:07:50 --> ErrorException: Undefined variable $idU
+[Method: GET, Route: userManagement]
+in APPPATH\Views\UserManagement\userManagement.php on line 6.
+ 1 APPPATH\Views\UserManagement\userManagement.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idU', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\UserManagement\\userManagement.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\UserManagement\\userManagement.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/UserManagement/userManagement', [], true)
+ 5 APPPATH\Controllers\UserManagement.php(17): view('/UserManagement/userManagement', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserManagement->userManagement()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 15:08:19 --> ErrorException: Undefined variable $users
+[Method: POST, Route: userManagement/SetAdmin]
+in APPPATH\Views\UserManagement\userManagement.php on line 18.
+ 1 APPPATH\Views\UserManagement\userManagement.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\UserManagement\\userManagement.php', 18)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\UserManagement\\userManagement.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/UserManagement/userManagement', [], true)
+ 5 APPPATH\Controllers\UserManagement.php(26): view('/UserManagement/userManagement', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserManagement->SetAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 15:08:47 --> ErrorException: Undefined variable $users
+[Method: POST, Route: userManagement/SetAdmin]
+in APPPATH\Views\UserManagement\userManagement.php on line 18.
+ 1 APPPATH\Views\UserManagement\userManagement.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\UserManagement\\userManagement.php', 18)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\UserManagement\\userManagement.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/UserManagement/userManagement', [], true)
+ 5 APPPATH\Controllers\UserManagement.php(26): view('/UserManagement/userManagement', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserManagement->SetAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 15:08:49 --> ErrorException: Undefined variable $idU
+[Method: GET, Route: userManagement]
+in APPPATH\Views\UserManagement\userManagement.php on line 6.
+ 1 APPPATH\Views\UserManagement\userManagement.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idU', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\UserManagement\\userManagement.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\UserManagement\\userManagement.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/UserManagement/userManagement', [], true)
+ 5 APPPATH\Controllers\UserManagement.php(17): view('/UserManagement/userManagement', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserManagement->userManagement()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 15:09:36 --> ErrorException: Undefined variable $users
+[Method: POST, Route: userManagement/SetAdmin]
+in APPPATH\Views\UserManagement\userManagement.php on line 18.
+ 1 APPPATH\Views\UserManagement\userManagement.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\UserManagement\\userManagement.php', 18)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\UserManagement\\userManagement.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/UserManagement/userManagement', [], true)
+ 5 APPPATH\Controllers\UserManagement.php(26): view('/UserManagement/userManagement', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserManagement->SetAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 15:09:43 --> ErrorException: Undefined variable $users
+[Method: POST, Route: userManagement/SetAdmin]
+in APPPATH\Views\UserManagement\userManagement.php on line 18.
+ 1 APPPATH\Views\UserManagement\userManagement.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\UserManagement\\userManagement.php', 18)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\UserManagement\\userManagement.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/UserManagement/userManagement', [], true)
+ 5 APPPATH\Controllers\UserManagement.php(26): view('/UserManagement/userManagement', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserManagement->SetAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 15:09:47 --> ErrorException: Undefined variable $users
+[Method: POST, Route: userManagement/SetAdmin]
+in APPPATH\Views\UserManagement\userManagement.php on line 18.
+ 1 APPPATH\Views\UserManagement\userManagement.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\UserManagement\\userManagement.php', 18)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\UserManagement\\userManagement.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/UserManagement/userManagement', [], true)
+ 5 APPPATH\Controllers\UserManagement.php(26): view('/UserManagement/userManagement', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserManagement->SetAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 15:09:51 --> ErrorException: Undefined variable $users
+[Method: POST, Route: userManagement/SetAdmin]
+in APPPATH\Views\UserManagement\userManagement.php on line 18.
+ 1 APPPATH\Views\UserManagement\userManagement.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\UserManagement\\userManagement.php', 18)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\UserManagement\\userManagement.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/UserManagement/userManagement', [], true)
+ 5 APPPATH\Controllers\UserManagement.php(26): view('/UserManagement/userManagement', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserManagement->SetAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 15:09:55 --> ErrorException: Undefined variable $users
+[Method: POST, Route: userManagement/SetAdmin]
+in APPPATH\Views\UserManagement\userManagement.php on line 18.
+ 1 APPPATH\Views\UserManagement\userManagement.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\UserManagement\\userManagement.php', 18)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\UserManagement\\userManagement.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/UserManagement/userManagement', [], true)
+ 5 APPPATH\Controllers\UserManagement.php(26): view('/UserManagement/userManagement', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserManagement->SetAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 15:10:54 --> ErrorException: Undefined variable $idU
+[Method: GET, Route: /]
+in APPPATH\Views\Home\index.php on line 5.
+ 1 APPPATH\Views\Home\index.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idU', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Home\\index.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Home\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+ 5 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 15:11:16 --> ErrorException: Undefined variable $idU
+[Method: GET, Route: /]
+in APPPATH\Views\Home\index.php on line 5.
+ 1 APPPATH\Views\Home\index.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idU', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Home\\index.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Home\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+ 5 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 15:11:26 --> ErrorException: Undefined variable $idU
+[Method: GET, Route: /]
+in APPPATH\Views\Home\index.php on line 5.
+ 1 APPPATH\Views\Home\index.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idU', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Home\\index.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Home\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+ 5 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 15:11:30 --> ErrorException: Undefined variable $idU
+[Method: GET, Route: /]
+in APPPATH\Views\Home\index.php on line 5.
+ 1 APPPATH\Views\Home\index.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idU', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Home\\index.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Home\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+ 5 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 15:12:06 --> ErrorException: Undefined variable $idU
+[Method: GET, Route: /]
+in APPPATH\Views\Home\index.php on line 5.
+ 1 APPPATH\Views\Home\index.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idU', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Home\\index.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\Home\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+ 5 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 15:25:58 --> ErrorException: Undefined array key "file"
+[Method: POST, Route: userManagement/SetAdmin]
+in APPPATH\Controllers\UserManagement.php on line 24.
+ 1 APPPATH\Controllers\UserManagement.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "file"', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Controllers\\UserManagement.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserManagement->SetAdmin()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 15:27:01 --> ErrorException: Undefined array key "file"
+[Method: POST, Route: userManagement/SetAdmin]
+in APPPATH\Controllers\UserManagement.php on line 22.
+ 1 APPPATH\Controllers\UserManagement.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "file"', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Controllers\\UserManagement.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserManagement->SetAdmin()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 15:27:09 --> ErrorException: Undefined array key "file"
+[Method: POST, Route: userManagement/SetAdmin]
+in APPPATH\Controllers\UserManagement.php on line 22.
+ 1 APPPATH\Controllers\UserManagement.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "file"', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Controllers\\UserManagement.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserManagement->SetAdmin()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 15:27:15 --> ErrorException: Undefined array key "file"
+[Method: POST, Route: userManagement/SetAdmin]
+in APPPATH\Controllers\UserManagement.php on line 22.
+ 1 APPPATH\Controllers\UserManagement.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "file"', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Controllers\\UserManagement.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserManagement->SetAdmin()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 15:27:29 --> ErrorException: Undefined array key "file"
+[Method: POST, Route: userManagement/SetAdmin]
+in APPPATH\Controllers\UserManagement.php on line 22.
+ 1 APPPATH\Controllers\UserManagement.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "file"', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Controllers\\UserManagement.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserManagement->SetAdmin()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 15:30:56 --> ErrorException: Undefined array key "file"
+[Method: POST, Route: userManagement/SetAdmin]
+in APPPATH\Controllers\UserManagement.php on line 22.
+ 1 APPPATH\Controllers\UserManagement.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "file"', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Controllers\\UserManagement.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserManagement->SetAdmin()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 15:31:11 --> ErrorException: Undefined array key "file"
+[Method: POST, Route: userManagement/SetAdmin]
+in APPPATH\Controllers\UserManagement.php on line 22.
+ 1 APPPATH\Controllers\UserManagement.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "file"', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Controllers\\UserManagement.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserManagement->SetAdmin()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 15:31:23 --> ErrorException: Undefined array key "file"
+[Method: POST, Route: userManagement/SetAdmin]
+in APPPATH\Controllers\UserManagement.php on line 22.
+ 1 APPPATH\Controllers\UserManagement.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "file"', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Controllers\\UserManagement.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserManagement->SetAdmin()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 15:47:33 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: userManagement/SetAdmin]
+in SYSTEMPATH\BaseModel.php on line 1011.
+ 1 SYSTEMPATH\BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update(null, [])
+ 3 APPPATH\Controllers\UserManagement.php(37): CodeIgniter\Model->update()
+ 4 APPPATH\Controllers\UserManagement.php(25): App\Controllers\UserManagement->AddAvatar('3')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserManagement->SetAdmin()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 15:50:13 --> TypeError: CodeIgniter\BaseModel::timeToString(): Argument #1 ($properties) must be of type array, string given, called in C:\xampp\htdocs\TouristAgency\system\BaseModel.php on line 1875
+[Method: POST, Route: userManagement/SetAdmin]
+in SYSTEMPATH\BaseModel.php on line 1762.
+ 1 SYSTEMPATH\BaseModel.php(1875): CodeIgniter\BaseModel->timeToString('avatar')
+ 2 SYSTEMPATH\BaseModel.php(997): CodeIgniter\BaseModel->transformDataToArray('avatar', 'update')
+ 3 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], 'avatar')
+ 4 APPPATH\Controllers\UserManagement.php(38): CodeIgniter\Model->update('3', 'avatar', 'ÿØÿà\\0JFIF\\0\\0\\0\\0\\0\\0ÿÛ\\0„\\0
+
+
+		
+%# , #&\\\')*)-0-(0%()(
+
+
+
+(((((((((((((((((((((((((((((((((((((((((((((((((((ÿÀ\\0^\\0ÿÄ¢\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0	
+\\0\\0\\0}\\0!1AQa\\"q2‘¡#B±ÁRÑð$3br‚	
+%&\\\'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyzƒ„…†‡ˆ‰Š’“”•–—˜™š¢£¤¥¦§¨©ª²³´µ¶·¸¹ºÂÃÄÅÆÇÈÉÊÒÓÔÕÖ×ØÙÚáâãäåæçèéêñòóôõö÷øùú\\0\\0\\0\\0\\0\\0\\0	
+\\0\\0w\\0!1AQaq\\"2B‘¡±Á	#3RðbrÑ
+$4á%ñ&\\\'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz‚ƒ„…†‡ˆ‰Š’“”•–—˜™š¢£¤¥¦§¨©ª²³´µ¶·¸¹ºÂÃÄÅÆÇÈÉÊÒÓÔÕÖ×ØÙÚâãäåæçèéêòóôõö÷øùúÿÚ\\0\\0\\0?\\0ú¦€
+\\0òOŒ?að|¥hÑÇu­Ë—æ;|ôÜVïÎ€>oÔ|e®ëšœsëZÕó)q½£}»W<à
+\\0ö­
+]bÚÊ4jm	Pcg‘&FFSš\\0ìtïøŽ	w÷¾kv?Ì¹ü\\0 H>%éð¶ÍwMÔô“ÿ\\0=d‡Î‡ðx÷~ PK£ø›DÖ@þÊÕ¬®‰è±L¥¿.´¯@\\0\\0P@\\0\\0P@\\0\\0P@\\0ÉüAñæàm=\\\'Õ¤¸—ˆmbÁ’O`=M\\0x¯ˆÿ\\0hë×Œ¦…¤[Ú“ÿ\\0-nÜÈGÑFæOÒª0”ôŠ¸œ”w(|>ø÷«EŠîã¹Òç\\"7)¡€“÷ÆÐ	¸çŽ•¤ðõ ¹¤¬ˆXIÙ3ê8eI¢IauxÜVSAèA¬MP@\\0\\0P@\\0\\0P@\\0\\0P@\\0å_µüŸÛ¯þ•E@«@—ÅÇàÏÞjdº#É¶CüR·Lû§é@^\\\\Í{w=ÕÔ-ÄÎÒHìrY‰É\\\'ñ h¬ðWŠ5oL>Î†âÅ›/o!ÂŸR§±®º8EexGO»ó9+c¨QvœµûÏ}ð–»¥xš\\0lä	pÏo!×ðî=ÅM|l?ñ#bèbéWþ:„ÓÝ§¥s»àÝTrú†—	˜ÿ\\0Ëd]ÿ\\0}.	üh8h>!Ò”Â1âÝJÝ¥µñûL_A»•\\0MŽ¾ è@k@²ÖíW¬º|†9~»yÏÐ-\\0iiß|1$‚-bKH›¸¸·,ýó“úP£x£BÖ£WÒµ{°†)Ô°ú®r?@\\0P@\\0\\0P@^$ñvá¨ZMoUµµÀÈŸ27ÑXþ€<ïPøí¥î+¡èºž¤{;ÄçùW]\\"¿ðàßå÷œuó6ø•üþíÎoQøÁã£ÿ\\0ý\\\'I°Cÿ\\0=¦qø‚é^”8{-ì¾äysâ\\\\~¿—ù˜ž7ñýöDž!ŠÔÖÖê1úWT8f«øª%ò¿ù“âªKà¦ßÎßæswÔ|Sw%æ§©ßÞLGïn¤` êíµtÃ#ÂáêÍÉö·é©Îøƒˆþ4—vôûô3fð‹Ú—w“·wþ\\\\ŸÈW§O,§mS_qÁS=®¶³ù?Õ‹ÀúVñ™îÓý Àãôª©•Ñ”ZÕÿ\\0^„C>Ä)_O¹ÿ\\0™¾šˆ4«XäÒ<GªÃfí®bû¬6Ÿbx‡èÎ\\\\°¨âû5ÿ\\0‘ë®#¯óÎ’’îŸü=½$Z÷mãßÅ·ùêåÿ\\0ô,ÖrášËášfâª/â¦×ÜÍ+/ˆÿ\\04ã“yi¨(þ¢^-¿Î¹jpþ2?
+Oçþg]>$ÁOâmz¯ò¹Ñé¿´õ øÃ$7yme(?`ô*òëakPv©¾G¯GBº½)§ó;_|pðv­*Cqu6›+µÇ„Ïûã }N+œè=&ÎîÚöžÎâˆ[¤‘8u?B(j\\0(\\0 €
+\\0(\\0 €
+\\0(\\0 *ý¨ÿ\\0ä„ø›þÝôª*\\0õZ\\0ùkö¡ñßø®×C‰ÿ\\0Ñ´è·¸å~N~‹·ó4â”±c`±¨’q—êö¯©Ëò¨ÓJ¥eyvíÿ\\0ù|Ã4•FéÑv~ÿ\\0ðNx¯ežJDq\\\\Km2Ío+Å*«£ ûYM)+5¡´‹º=[Á?î,ž;_Än`éö¨€/ûËÑ¾£ë^+)Œ½ê:>Ç·†Ìä½ÚÚùžå¡kz7ˆlçMº†âÔ¡ÉSèGP}xUiN”¹f¬ÏjHÔ\\\\Ðwu§ÀÙ1ð}«2Ì©­š#ÁÈ 
+ºu†£‹P´·¹CÕfŒ7ó 3TøEáÛ·2X:n Ã!*Ñ³ú\\0Ë‹Ã_<*äøgÄ¯}j¿v¤Ï›$Ü£ð48øÅã¸_xe&ˆpdThsôq¹J\\0ëôO¾¾
+·é{§Hzù±ïQø©?ÈP è^-ðþ¾ èúÅÛc;Q¼}Tò?@tSUÔ¬´›	ou;˜mmbye`ª?úþÔó¿Œ>.k>*¾¸Óü##éšB|{ŒM õSüíŽ{ät¯K.Ëjc§e¤Vìó3<Òž_½dö_×CŽ¶Ò­¢”Í k‹–å¦·±>¹5ö˜\\\\§…Ö1»îõ>œb±zJV]–Ÿðåð00+Ò<±Ñ£K\\"¤jYØà\\02M&ÔUØã\\\'dtÖºM†•n·zãy’RÙ_¯ùÅy“ÄÕÄKÙáô]ÏVžŽ>Ó«èŒ½gZ¹Õ
+£†Õ?ÕÛÄ6¢þÏ½uað¡ªÖOv÷918Éâ4zEl–Æ]u@ôÍFëM¸ZJQº2õV„wj­Y£jŠ”%ÍMÛé~\\"šÙVÃSÆZ1þ­Ï¨¿
+às¯ƒvŸ½ýQé*x|r¼=ÉöèÎnúÒkƒÊlqùê+Ñ§V5cÍy•hÎ”¹fŠÍµ†=[I«2iÝÚ‡¬.Éd_\\"CÞ>Ÿ—Jññy&ª\\\\¯ËükŸbðÞìŸ2óÿ\\0=ÌÝ6ÿ\\0Äž½z5üð¢žLlLl=ñ¯”Çe5ð~óWuúö>¿œañ¾ê|²ìÿ\\0NçÐ
+~4YøšXt¿,V»±È!œö?u§~Þ•åž±ìT\\0P@\\0\\0P@\\0\\0P•~ÔòB|Mÿ\\0n¿úU\\0z”ò¤É,¬8Ô³Ø“@x³W“_ñ6©ªÍ×w(øA<À`~mæHfqò§Os^æKƒö“öÒÙmëÿ\\0\\0ðóœg³‡±ŽïOø&¬†¾¡Ÿ5VÖlÕ\\"¼†¡š¤VÔ3h¢m+YÔ4[µºÒ®æµœm×ê:ìk
+´áUrÍ\\\\è¥9Sw‹±éúÇkè6G­éép½[vØß]§ƒùŠò*åQÞœ­êz”ó	}´zñ?ÃzÈU‹QH%oùgsû¶Ï§<À×›SZžëî;¡‰§=™»5Ò8È ƒÐŠå7+ÿ\\0iKù[pônhÅ¿ˆ­ÁÛrûC‘@·v—ÈD2Å0Ç+œþb€1õŸxgYöÝ\\"Ûyÿ\\0–‘-¿5Å\\0pº¯À›c&ªÜÚ¸9U•CøŒ\\0Çø­áÝ£j—p/EŠ5qî’qú\\0à¾\\"kþ.ÖïPø¸ÝÇ°b8^#cÂô\\\'Þ€5ü9n–ú5°N®‚F>¤ó_£e#G	ªïæ~eœ×•|eG.ŽËå¡¥šô,3Jã±¿e,5·Ÿ vãå•ÁS›.Uð£Ñ¥Ë†3ø™‹y{-Üí,îYÏéì+²œ#N<±8ªNueÍ&W2
+»‘Ê!–•ÇÊ!–Žaò2Òæ %ÃFáÑŠ²œ‚¤ìÕ˜ÒiÝ:¬ZÍ§Ùoð.|¯ëïõö¯:Tž\\\\ôö=8ÔX˜rTÜç.ƒÛÌÑ¿Pzú×tj)+£‚Tœ™	–«˜\\\\ƒZ@ÀƒÈ=A©m5f5ÑÊëšOßj±TÌ«ü>â¾K7Ê;× ´ê»y£ìr|áÔµC×£ïäüÏ£¾üL&Ó×DÖ¦ÛVÉˆÝ¸ûL`uÿ\\0xwõëë_6}1ì4\\0P@\\0\\0P@\\0å_µüŸÛ¯þ•E@\\\'ÆWûá®½tk›s
+½!?ô*\\0ø„H©¦““²i+³¦·ˆ[Û$c°çë_{… °ôcMtüÏ„Ä×xŠÒ¨úþC$5«\\"%g5›5EiC6Š+Hk6kVÔ3h¢´†³f±Eg5š¤hé^)Ö´l7Q¸…DÝ¹?ï“‘\\\\Õ(S©ñ#¦œå™Úé_îÑU5‹› ;IüÊ¼ú™zûë†!ý¤uÚg´-YÊ½Xe?òÊ‘‡çÁü	®˜jÝ©y‚$ŠBPÊqúÖ—ì|mªéì32ÜÄ?‚aŸ×­\\0uOÄý2WXõ8e´\\\'þZ/ÎƒëŽC@¾•«éú¢nÓ¯ ¸HÁ#ê:ÐÛ›;kÈŒWpE4mÁY0?\\0sšÃÝ
+î\\"°[CŽ?(_ é^Ž5Äá’Œ%¢èö<ÌVQ…Å7)ÇÞ}VŒóŸ|<Ö4ÓZ/Û­G$Ä>uëþôø<úv¯ºÿ\\0¼ùloW¡ïR÷£øýßäqpJ\\"›tƒ;Zö$ù–O1åzô#¸»y¤.ç\\\'ùSŠQVA+ÉÝ‘ió”C-.aò2ÑÌ>Q¾ô¹‡Ê4ËïK˜9F™}èæ(	Š°*pG Ònå(Ø±wx.bWoõ«Á÷¬ ¹–Æ³÷ÕÞå3-iÌgÈ4ËK˜|ƒL¹ëCcQ0\\\'ûN‰ªA©iR¼DâHäCƒé_›eßWŸµ¦½×øi”f?X‡²¨ýåøŸ]|$ñý·Ž´+m‹U¶. ÷ìëþÉýEx§´wT\\0P@\\0\\0P@\\0yWíGÿ\\0$\\\'Äßöëÿ\\0¥QPWíS¨<§Y+`Ý^aê¨¤ÿ\\02?*\\0ù›I‹Í½LŒ„ùzyEW›ÙkþG™›ÖöXf–ïCzZû&|tJ²†m³ž+6lŠÒµÖ%ifÍ¢VÖlÖ%iC6‰ZCY³X•¤5Ú(¬æ³fÉ¤5Õ\\"Þ›âSJÂØÞÍ`çËÎSþù<V)B6ÑÔéß.@	©Û,ŸôÒ´þ ÿ\\0õ«’x5öY|Æõ§ŠôÝ@b;ÿ\\0r_”ÿ\\0ü+–t\\\'ÑWE‘$¤ÖÓ<r©ÊÉAõV#:â÷‰ô‡A%Ìz„ ò—K¸‘þðÁÏç@“áï>»*šÍµÎšç«çF?¿J\\0õ][Òõ¨DºN¡kyÌ2ÇÔ”âïi$Y%xþË~Ã‹˜†	=·âþ~õé`³JøKE;Ç³ý;f7*¡‹¼š´»¯×¹äZ¯Â¿Y3 ‚ò1œ42€Hú6?*úZYæ¦í¯UþGÌÕÈ±TöIú?ó9-CFÕôòEö›y;¼,çŠï†*•O‚IüÎ	á*Óøâ×ÈË2ã­kÌcÈ4ËïG0ù™}ésC-Ãäe¥Ì>A´s”i—Þ—0ùF™}és”C/½Ãåe÷¥Ì>Q’2È…§‚Dã‘q’ºeÁÊœ”¢ìÑ[CÕõ/ëÐjº4æ9c<g•uîŽ;ƒ_˜eòÂËš:ÅŸa—ãÖ*<²ÒHûáÏôïhK}bDw	òÜÚ–ËBÿ\\0ÔÇ¿×5æž‘ÕP@\\0\\0P@\\0yWíGÿ\\0$\\\'Äßöëÿ\\0¥QPûYÞîÕ´ÕÁ$ì?Þ`þ‚hÇôsöi®1Æà•ôù+BU]>ãæ3ê·œi®šýåÙkÞg‡¬•›6‰ZN•Ù¤ïY³X•d¬Ù²+IPÍ¢V’³f±+Hj´J²Í›D­!¬Ùª+Hj´JíÖ¡š¡)\\0P»]Bî×ýDî«ýÜä~UœéBÍ8<C)À¹Œ0õNå\\\\ÓÁ¯²ÇÌi[jv·”+z7Ë<<áº*èÒ´»žÒešÎâX%S•’\\\'*ÀûXŒôülñvŒ±Çss©ñ¶írøÿ\\0|`Ÿ©Í\\0zç†~>økQDZ·¹Ò¦<1#Îðeÿ\\0ÇhÑôí_KÖmÄÚUý­õ»2CŽ‡ØÖ±fRE-[Ãš.¨¬/ô»I‰þ3ÿ\\0}Gç]4±U©|hæ«…£WãŠgª|&ðíÎãjn¬ØôòäÜàÙ®úyÆ\\"?™ÁS\\\'ÃËáº8½_àþ§-¦j÷IýÙTÄßÔ~µèSÎ¡/Ž-~\\\'L–qø%ÀâµŸøƒH×šeÇ”:Éó}JçwSÆÑ«ðÈâ©­Kâ‰Ï4„Aô5ÑÌsò2ÑÌ>A´¹‡È4ËG0ù2Òæ(Ó-ÃåËK˜|£$`êU¹¢¤cR.2WL¸9S’”th³á/ê^×âÔô™H#‡ŒŸ’Tî¬?Î:×Èã°O=>±õx,bÄG_‰n}—àOéÞ3ÐbÔô·À?,Ð±ùá~êßãÜWÚt4\\0P@\\0\\0P•~ÔòB|Mÿ\\0n¿úU\\0xßí3yöŸ‰ÒEœý–Ò~™Ëÿ\\0ìô‡aiäxFÚB0dmß™5öY\\\\y(Æ>WûÏŽÍ%ÏZRó·ÜgK^›<Ø•d¬Ù´JÒt¬Ù²+IPÍbU’³fÑ+IPÍ¢U’³fÑ+IY³X•¤¨fÑ+IY³h•d¨f± =jD¤@\\0\\0Pö÷“ÛœÅ+(ôÎGåYÎœ\\\'ñ!ÝšpëòŽ%‰_ÝN+šX8¿…˜½¹hãæÞ‡Ýsü«a*-‡Ì?_[9ÄÖ:ƒÛL:<nPÄVn…EÐwG¤øoã®¿¤¢Å{{iª@¼r@p?ßŸÇ4(T]-&z‡~>xSQUMVFÒî;—a$ƒ0*ÔfþË!Äô]#^ÒµÈú>£i}êÖò«ãØàð~µM5¹]©¢LkÃÚ>¬¬5:ÞbfÖÿ\\0¾†üëzxŠ”þ	XÂ¦OŠ\\\'žë	ldÚMô¶ïÔ$Ãzý3Á­z4óI¯\\\\à©–AüÇœëÞ×´`ïqfÓ@œ™­þuÇ¯¨Q^…<e*›=N˜:”÷G.e®ŽcA´\\\\|ƒL´®>A¦ZW †Z.>AŽá”ƒÒ²«Õ‹„öf´¥*RSŽæ÷Ãßjñj|-ò\\\\[±ùfOCî;Õòx¬4°óå{t>—]W‡2ÜûCÂž\\"Ó¼S¢Aªi	måâ»«ÄW1ÐkÐ@\\0\\0P•~ÔòB|Mÿ\\0n¿úU\\0|ññ’óíÿ\\0uùAÜ>Ñå¯Ñ@_éBWÐ¶§O¬Ú}—ÁÚh±þ«šû|5•GÓO¸øŒMåMMõ×ï8ék¹œq*ÉY³h•¤éY³dV“½C5‰VJÍ›\\"´•Ú%Y+6m¼•›5‰VJ†m´•›5EY*´HZ†j„¤gœMg*±ˆìXŠÊæ_»QêÜW4ñ]‡ÊZ]!ÿ\\0å¤À}s¼D™V-Ûøyî?Õ	¤÷QÅCªØXÓƒÁR8Ì¯å{Éý/hÂÄãÁ6à|÷RgØ
+=«Û»w0>êR¯4+Mà÷ê®Ôÿ\\0¼˜®ˆã{¡r™×>Ô!û¨’öükhâé½ô+3\\\'´¸·ÿ\\0]‰îWŠÚ5#-˜¬%­Ìö“¬Ö“KË÷^7*ÃèE]®#¾ðçÅÏh¯—¬Iw
+õ†ñDªÞÙ?0ü©ta.†lõö…I6®¿£2òY¾ñÖ?Ö¡á_Ùfmž—¢xÿ\\0ÃZðQ§jÖæVé¤ÆùôÃcô¬)ÇtLÜ‘êP¬qÞ(ðn­«´{£Èž´çÜt5ÕKRžÎèç«†…Nšž7âß	j>rò´Y—Ž³Çô¯RŽ*5}O>¦Tý`Ë[ór2Òæ(†Z\\\\Ãäe£˜|ƒLµÏ‰£D9doB¤¨Ë™×ÂŸÞx\\\\YÐÉ6—1êÔ¾?¼?Ú¿*ùj”åNN2Ýü&§d}Ÿ¤jVšÆ™m¨iÓ,ö—9¡ãPQn€
+\\0(\\0 *ý¨ÿ\\0ä„ø›þÝôª*\\0ùÅÙÿ\\0„ÇUÜI?l“¯ûÆ®ŸÆ½H©ð?CÙ|i§‘àØÙD)qé€?­}^§ïõëså1Tÿ\\0p­ÒÇ•J+×g•¬‚¡šÄ¬ãŠÍ›\\"´ë6m´‚¡š¢¬‚³fÑ+H*´JÒ
+ÍšÄ­ ¨fÑeg›5EiC6L¬ãæ\\0IècRj
+ìÖ:ššD’€×Ë_îŽµçUÄ¹hMh-!·ÿ\\0U×½r¹7¹FÖŸ¡]Þ\\0å|˜ñ? ¤Ai ÙÛ\\0Y<çLœÊ€/•
+\\0\\0\\0:@° XPL(&
+\\0‰×9PeÖ“e9%íÐ1î¿)ý+XÖœvbi3*ãÃÊm¥#ý—çõ®ªxæ¾4g*wØ¡-…Å¿ßŒ‘ê¼Šî¥‰§=™Ï8I	®´sÉw‡|oâcK=FV031\\0ô\\0ôLTÊ„\\\'º#ÚJ;— ü]·¸	·fÖïÐÍÌŸ]½GëXKÖ±e,BûGm¥§kVmöYà»·‘pÊx=ˆê?æq•7®†ÉÆkCÆ~ xMô9ÚòÅKé®Ý:˜¡öô5èÐÄs«KsŽ­Wu±Åk£˜Ë”i–Žaòˆe¥Ì>Q¦Z9‡ÊIÀWÃ”×ŸŽÃûhóGtuaª{7g³=¿ö}øˆ|9«®‡ªKÿ\\0{×ÄlÍÅ¼§¡ÿ\\0tô?õ¯õ«è\\0 €
+\\0ò¯ÚþHO‰¿í×ÿ\\0J¢ ™¼¶ñÎ·Œ¼“#þUf™2WMEhñE¯x\\"ÅÈÌwVJ­õ+ƒúæ½¯mjœñïuùž/±½>Iv³üÕlå°¾žÒáJË”`}»×ÓÂj¤T£Ôù™AÓ“Œ·Fl‚“.%gÙ¤›5L­ ¨fÑeifÍbÊÒ
+†mVqY³TÊò
+†kVqPÑ²d\\\'šQK¹Ïéîk’½hÒZîtS‹‘¯e§Çj7žSÕô¯¥YTwgRV4lí&¼œEn…ÜþCÜÖc;\\\'ÃðY’p&¸ë’>U>Â€5XPL(&
+\\0‰…\\0BÂ€#a@° ˜P¾ƒá-{Ä2„Ñô««zÈ«œ(üM\\0MãøƒÂPÁ6·eå[Ìv¤¨á×v3´‘Ðã?\\\\t I…\\0TžÖ)9(õVô±5)|,Ît£=ÑU­
+ä{×¥G2‹Ò¢±ÇS	-à¤ƒ^­9Æjñw<ú‘qv’/é×3ØÝGsi+E<g*ÊqþGµ\\\\ ¦­#%7tz·‡¼Uo®Ú›MAQ.™J²¹(öÿ\\0
+ó+a¥Eó-BŽ\\"5}×¹çþ8ðŒšS½æšK¬Z/ñ­*üÚKpjŽ Ëï[\\\\ŽA¦Z.>A´¹‡È4ËG0ùMM2ëÍS™z{Šñq´9%Ï™ÝBw\\\\¬û;öñŸü%[;Éjzf!”±É‘?ýø>ãÞ¸MÏP €
+\\0ò¯ÚþHO‰¿í×ÿ\\0J¢ 
+ý t¶Ó>(ê„®#»	t‡Ô2àŸûè0ü(Ò¿gÝjOÂ²hï ûm‹’õ11È#èI—­vBwŠò8çIù—~\\\'x!õxþß§\\\'ú|k†Nžjÿ\\0ˆ¯cŽT½ÉíùF?êûðßó<*æ\\\'ŠGŽTd‘	VV ú^ýÓWG„®™QÅC5L¯ ¨f©•dZÍ›E•ÜT4j™ZE¬Ú5‹+Èµ¦Wu¨hÕ2«£3„ŒeÛ þµËˆ¬¨Æìé¥7djZZ¥´{W–<³w&¼
+•Is3ÒŒTU‘©¤ésêw>\\\\#1½ÏEãíP3¾Óôè4ëqºû³¬}èf
+\\0‰…\\0DÂ€!a@0 ]/Âšö®¨ún}<Np$XX!ÿ\\0?Z\\0ê4Ïƒ^+¾Úf†ÖÉÎn&ä{aA4Ûi_tèB¾±¬O>0Y`ŒD¾ã$ŸÏŠ\\0ètý#á—„—ÎÑVî,nk«•šPG|1$ ÙxkÄF¿k$šÌwð0ŒhUTã8äÔóïí-â1¨ø–ÛD·“trn”Çšã8ü™ q@wz½Œ†Y‡dù¿•\\0c]x‹h8þóŸè(-:÷VÔoZÛÉrïGyãÔžÔãŽJ¤¤—«Ü‰Ðöñp±Õ<Á\\\'—<mƒ’­ÔWÕ`±tq”•Z.éŸ=‰¡:äš³%‹*À© ŽA«¶×9±Ùè¾#2F-õ#ž0%=ý›ükÏÄ`~Õ/¸ô0ØõðUûÎsÅþYï4`¹­ÇCî¿á\\\\p¬Ö’=\\\'õGHÍ²H¬®§X`ƒ[óa–‹i–•ÇÈKk,‹!–.LcqúVuœ\\\\_R¢¬îhøâ¯øGüy¦Ï¿ý
+ÿ\\0³g?)üéšðåâÎ¥©öH\\0å_µüŸÛ¯þ•E@øùðîipj:B†Õ¬TC<g úƒ’>¦€>]ÒµWÂºê\\\\Ú4ÖZ³á•Ô‚=U”öõª2qwDÊ*JÌú[Àt@–÷Ÿ«ýÓ·Ë!õFþ‡Ÿ­uÁ9®hkßº9\\\'%Ë=/·b÷Œ|¦kážxŒ7}®\\"á¿Çñ®Ì6:¥ºìrbp4ëjÕŸsÈ<AðÇZÓÙšËË¾‡ýƒµÇÕOô&½ŠY*ŸŒòjeõaðêŽ/SÑµ??m²¸€¬è@üúWLjÂ¹ƒ§8|HÈ‘i´TYYÖ¡£TÊò-fÑ¬Y^E¨hÕ2´ØD,Ýg6¢®Í¡y;\\"{s™$ÿ\\0XýÙ•óXšî´ïÐöiSTãcSKÓæÔ®Ö»7e¦¹ÍO£ü+ðvfÐ,ä©he@æ7ˆ³sÐ“ž¤`Ð¡ø7pæ3ýø?üU\\00ü¸ï­Cÿ\\0€çÿ\\0Š 
+“ü,°³”.£â‹823µ•U±øµ\\0P¸ð‚-w	ÔEcøc4Rx¾ØI,Úî¦3Ê(U_Ç!>†€ÿ\\0	_‚,¤“û?ÁbU#
+×Wÿ\\0B[ ¯ÅY,•?±ü5¢ÙÈŸuü¢Ä}1ƒúÐ;Š~5Õ.Ö;•‰Øa`´µVÉöÈfýhÔWÄÝj&’îöþÎÌÒMyuäF‹×$g8ú
+\\0]#Àúf·®ÚézŸ‹gÕ¯Û%£°V•bP	be~\\0àã9#Š\\0óŸYiúŠ5[9›ìV“UçqœŽO®hÒü+ñÀ?<mc£&§«óæ‚ÊlÊüí.pŸ/\\0üÝºPÌž ñÆ¡«ê7w…9®ei]ÌrÇ=è•–â/a­ínî#nŽß*ÄàV51©üR)A½%ð%ÔWQÛÝÜÅç¶7GÍ´žÄôÏ®2=ë†®i¦âŽˆaœµlï´_hÖ1¦ûas0ë$ÇwéÓô¯ÄføŠ¯IYyW:á†§—:ÛkHáŒ$1¤h:*ŒøWœÔê;É›h´C/tˆ5Ïöè¥~ðúW~‰ÀOÚP¿\\\'êŒ+Ð¥ˆ-EsŸÕ<{dF¯´ýÕ•J1úÁý+í°mJ~î*óŽ«îßó>{ÃòZÑ—Éÿ\\0™‰%¼¶ï²xÚ6ôa_eƒÌ°¸Õ|=E/ÏîÜùìN¾ø±h¿e{,*’Ñö·Ò´Ä`£[U£0žòËXÿ\\0[Þ!Ñí5„2ª¹$QÏÐŽõâÊ3¡.Y£èéU§^<Ðw<çTÓnôÙJ\\\\\\\'Ëœ+¯*ÕjW5±G&ÂÅÍ%€¹enC¡\\\\T°7<9pð;Ä¬D8xÛ¸î?Zóñp³Rî\\\\OÑ?êªøLÔS…»µŠp?ÞPßÖ¸Ê4(\\0 *ý¨ÿ\\0ä„ø›þÝôª*\\0õZ\\0âþ ü7Ð¼mnæþ³ê!qì 	öÝýáì:ÐÍž5øCâŸ	¹¹‚©X©âæÌ+þò}áõä{ÕÓ©*rSƒ³DT§‘pšºdžø±­èÉµÌ¢ê|»œ°ÙºÔ{W±O…ÅiYrKºÙÿ\\0_Ó<Š˜|VZ/ž=žëúþ‘ßÛ|]ÓnMî›qG&YáœWKÊ¥kÓšhæY¤oj‘i–Gü1u/w$Ül–Èúí~µ^/küÍV:„–ö9é^Õà‘¬o´û{Ò3G\\"¨\\\'Ð­mJxŠoÞM£*¡Q{­&xüÑ•b¤rzg
+egZ† u¨hÕ2¢§vü³‹“îÝ…x¹{~í®•ýöhÃÏ2E–w;Tæ¼SÓ=ÃáƒRçW¶´e‰‰îßûÀÐž?3@­ñGÆw:¶Ö<‹Ñd®T6Õès×ð÷ ÓÄ^5×®vi÷W³;¸B¨ú0(;Æºwˆt…µ‡ÄÓÍö•2Úå¤ƒÐçŒóÛ4—à?êú|Wº}ŠÍm(%\\\\OÎ:È 
+úŸ‚5Í8­¾?ç­ôüÞ€)ZøWT½¥§Ø%qÙurô:\\0½?Ã_F2Ú4‡ýÉ£oäÔÊjš}Ö™{%¥üosÞÆï@Çû?kú}®—©i×³Ám:È\\\'VªoB0yï‚;ÿ\\0z€<GâÄ&¹¨[^ë’êÑÁrë
+C&øð€F>QÇ~¼Ð¥üU×´Aîü2ñØLñ˜ŒŒ‹+$a†AÚ€9ñgâ?jRÝ´Wš…Ìò43ð¥˜äÇ
+2k¸Št¾9X¥-ŽËFøIpì¬_¤IÕ£·›é¸ð?#^m\\\\Ú+Jkï5TS½Ñü i[L|rÊ¿òÒÞ6}yà~¼Ú¸êÕ7—Ül©Åt4µí@XX»‚<Â>QXCÞe¥wcÁÚö£#]Ç’¼„íl`{œž+‡1ÆS¥îJV;)Óodzf—à[‰\\07wÄ=n?Ò¼xc£7î«›:MnÎ¿Mðf•\\0¡yÛÖVÏè0+ºœªÏÈÊJ(èm´»{T\\"ÚÞ(ë±@Ík,,¥¬µ%TKbž³¤[ê6­Ô{”òu>¢¹%FT_4M”•™ãÞ\\\'ðôº>£DÖ³b¹Vî3î0:îÁb.ß.ŒÂ´4Ôçnô+YraÝÿ\\0³Êþ#ü1_Wƒâ|vÉË™vç¹âb2|-³gåýXÈºÓgµÉuGýäçQ__ƒâl={<Bä~{}ç[\\\'ÅàŸ´Ã¾oMþî¦>¡cç@ØQ4Dr¤f»«åò‚ç¤ù¢m…ÍáQû:Þì¿ø©hpï-nÆ#ÝO#ÿ\\0­\\\\JMnzûìQ·±kiKÈÊHÈ\\0Snã-i_òb:Î1\\\\¸¿€qÜý\\0øLÅ¾xh·_°Ä?%ÅyÅe\\0å_µüŸÛ¯þ•E@«@\\0ÅøÃá—…¼VÏ.¡§$7Öê×÷rêqÃ~ ô ñ?ÀMK–Y|/{¥m’VHŠP=9ùI÷Èú
+éÃâêáÝé¿ò9±JX…j‹üÏ-¿Š÷K¹6ºÕÍ…Èê“ÄÈ#^þ9§SÝ¬¹_àxxŒ¢¥=i;¯Ä…€aA¢½dÔ•âîyvqvjÄµ-&@ëPÑ¢eK¶Âò7aXÕ’„\\\\™½$ç%Eg•\\0Ïßo™¹¯‘­QÔ›“>š”\\"’;ïhû#þÑ¸O™ø„Ã¹¬¥þi±h^›V»d¸S31þÔp?™üE\\0y¾›þ4ñÊŒ‘q7™.?†!ÔÀ`Pyâ¯kÑé~Ùmv‰†6ä€{æ€3þ.Ík¯øGKÖ´çóbI¶6*Ó@ühŸ
+nîu?ë:-¥Ì–÷ÐeíåF\\0€ã€?à@äÿ\\0µ@_¥èºŸˆ5Æ±·S-ó.f|ƒóOÿ\\0®€75ÿ\\0†Zþ•%’E_5ÓlQlIØØÎ8ÀÀ<ôâ€:ß‚º–«i«jÚF±rRÖÊ\\"ÍÄœÂá€ùrx\\\\g=ºzòâŸ´Ä­ëÇáYQÄ)·!³	‘rÂ>ðÀ^Gœ@%{«jºÜËÉ4ÅËJpOû£­L¥.i;!¤ÞˆÙ²ð­-³OxÑîÚçs‘AÓñ5åTÎhF\\\\°÷¿#¦Y½^‡aàoèÝ/Ú­ê\\\\œÛåéúW&#Zqvvô/ØÆõ!…P\\0ôä9X|hò¸HÑÏTdšNi+±ØèôÏê@=É[XÏ??-§øâ¸ªfá¤u-Rosñ=…”º¤6ÖÁ¦Ëà4œ÷Àã§­jñŒ.ô:(SM¶znoµ¼PÄ\\0HÔ(JøÊÓu\\\'ÌúžŠÑ¢t¯[sUfÕ¬`â¾«	E3Ï©#D[ü™Å{?T÷nrûMJQšññtR:©ÈäüYO¥ÈÓÆ$Š&YHÏÊÍÿ\\0Žæ¾vw…Tã¹Ú½èÙžyâ_Ë¦3Oo™lÉá»§×ük»ŒU}ÙhÎIÓqÔæ.[÷dz×Tåî–¦=Åºî/Èçò?Q^ÆQÄ8Ì±¥	sCù^ß.ÇÊpøåï«Kºßþ	Ÿw¦Zê¬èc›ûÊpOø×êY~7žSç§¤–ëªÿ\\05æ|f!c²Yr·xtíÿ\\0\\0çnüxÏþq¡=[*.kidõ÷dš:aÄ”Z÷àÓûÌù4ì{¹!’A$Ø˜Fp+ç³:r¡YÑocÛÀb£‹¢«EZ÷ü¼>Z½—€|;o Ä‘éð‡`$~uç‡C@\\0yWíGÿ\\0$\\\'Äßöëÿ\\0¥QPªÐ@\\0\\0P~¹¢iší“Úk6÷–ìÛ2Æ{ƒÕO¸Áâ~1ýŸáÛ%ÏƒoÚ	FOØîÉdo`ýGâÔu®Šª¸wzoüŒ+á©WVšÿ\\03Æ¼OáwÂò„ñ—=ª±ÂNèœóÀqÆxéÖ½Ü>qNzVVâb2©ÃZNëñ0ÙC‚õë&¤¯tyºÅÚJÌÉÕ\\0yà·õ;Ûè+ÊÍ*òC•¦]Ož|Æ¶ƒ§6©©Ån2ïHGeÃñ¯™>€ö¿iTÖ,tØ—lnÁHÂƒ“ú@£ñ{Q‡ Ó-±ÚH]«Æ#Lp=³´PÂ#¥i©y¨ê:…”~ê4–eV
+9\\\'÷8ü¨ÇÄÝ?C×cþÑÓu7ûJ%ÚcûT`L£·^v 5Ò­=­ö¦[Ü]Áp€Í1´Ø søPIð®âãAñÌvzŒ2Ú›¸Ì,“)B7.Aõ#ë@øËXÑ<ñNÛ[}BÖ;7{$Êc•p@ïüXêNh’ñ÷íQo{oéM;`¶ßüª?v1ÉINôó~¯­kþ5ñ5Õìï5Þ§~Çz@»AGxý2}je%y1¤Þˆë¼7ð®y@ŸÄù	Áðœ¹õÜÝáŸÂ¼ÌNf¡¥5s¢øDÓtm7F€E¦ÚEŽ¬Y¾¬y5òøÌUJÎów;éÓŒ6B\\\\¶s\\\\°FŒäìÄ¶ú‘Ž,êùP=«ÛŒ”¡vsUG»ø{Â{oÕôÛ!‘Ñ#åˆ#<žß­|Þ#0PnZ£XÒ¾¬í´í2ÏNeœ	«ucõ\\\'šòêb\\\'QÞLÙE-ŠÞ*¼ûy(8;6îxþµXUí*Å
+nÑ<‡@Cyâ!+r±|ÿ\\0—õçð¯K>JMw:(FÑG¦X7Jù‰èÎ£zÍúW±ƒš9j£jÖP1_U„¬‘çÔ‰¢.>Lf½¯­®[¾ÏR…Ô æ¼l]dÎªq0u5Ià–\\\'GR¤z‚1_/‹©gtwÓF‘?Ú´ˆ<Ü3òÜrTí?¨®J²ä›±-oŠü6QšãM\\\\§V„vÿ\\0wü+»˜)5N§Þc*VÕ<µê£œÃ> ŽAvàñUp•cZŒ­$a^…<E7Jªºe»	|ÐU¸‘zûû×íùsÛí“ZIyÿ\\0“?,ÎrÉåÕ¹w‹Ùÿ\\0]Qq§6±ã»=60K\\\\Í8í`Zùüùß/EùSÃëý†>¯ó>å‰(’4\\0*€ A^9íŽ €<«ö£ÿ\\0’âoûuÿ\\0Ò¨¨Õh\\0 €
+\\0(\\0 €<1\\\\Bñ\\\\F’ÄãŽ¡•‡¸4å¾:øAá+Ë½BÚ	4™á¦g³8F
+2sùzÓ{Öô15h;Óv0­‡§YZhø×M¼þÒ¹šënÕ_æµÅbå‰ÖJÌŒ>aô‹Ðõi¿dÓ>Ó\\"â[›ž¡{qG¼|Ò°—š¤‰ÉýÄDúp[¥\\0PñN{ã?ÝZX¼k’™äl©ÀêrHü¨{oøfÞSo©ëáî‡TiF*\\0±\\\'…¼;=ªêDñ97[[#‚î?J\\0»lš_€ô[»Í?Z´k	I’s*ò§øPÍÿ\\0>9¾½<0iöð9·µ—;ž¼õnƒ¦Ö€<>îïR×ï×Îy¯.\\\\áF%?
+™Î0\\\\ÒvCI·dw^ø_5Â¤úôæÝ?gˆ‚ÿ\\0‹t­xõóˆ\\\'ËK_3¦g¼UÒ4Í?F·òtËH­ãï´r~¤òòêc%SY;¦£±fI+†­chÄªD“H#…Ýº*Œ“\\\\3šø¤ô5K¢4í¼3#¨’þO,ùfœ·âz
+ãž=-)«ù›ÆƒÞF^½gèkX„hê	Çr8þX®ÜiT^û¹5à”cðÏÚ¼)`û‹CÏ±\\"¼||y1F4ÝâŽƒÇrÎâÝáƒK³·%”¹ÿ\\0€Œìß¥zÙM>j’—cÏKƒ—jÏ1êÌòçúÑ˜»´Bš²;›)zW‡R&¨Ýµ›W‡­ÈìÉœnjA>\\0¯z†.Ç$é–~ÓÇZîúî†>È¯=ÆEp×ÅÜÖÌ»©¸5áb+s;#®±Ïi‚ãP€Ÿ—ÎóSý×þa©Öá	y[îÿ\\0€g5©fsÖ°Z’r~\\"ðüWÅ¦¶ÄW=O÷_ëïï^¦*^ìõF3¦¥ª<úöÞ[iZ)Ñ‘Çc_ANqšæ‹º9Zkr¬Ry71Éœ\\0Ø>à×Óð¾a,aŸ»/uüÿ\\0Éž.}ƒŽ/5mb®¾G}ð\\\'ÃãVø¡¬J›­ô¤ùo5—hü†ãùW×g2æÆÔþºvG\\\\?ë©ôÍyg¬\\0P•~ÔòB|Mÿ\\0n¿úU\\0z­\\0\\0P@\\0\\0P@þ2Vëjœ±±œûöhó×áµ©Ô56²neföQÆ€=ù\\"* Â¨ÀôN‘
+xÂ+®­±‘Ç«`±ýI &øw=Ï‰n¡3¼wŒ\\\'š§9·~‡ó ÍD†ïÅ)¥ëµ¡óLmÇ,ÀýÐ{ØÐÇ›?ÂV±kÎ|«\\\'Ä åš@¿(¹ Ë&€>IñwŒ¯üA#F	¶°þýïv=ÿ\\0—ó x_ÂwzÓ,²ogÿ\\0=rßîëÒ¼ÜneOî­eÛüÍéaåS]‘ë:.›¥øvÌ›X’<.Våßê â¾Sˆ¯ŒŸ¾ïåÐôaN4Ö†f¯¯Ï\\"<¾iµµAœƒƒs^¶+”£wøþ†5q‹±ÃÅâ™^ìýŠÙÛå}ûO×Ú½håú)~4±ª
+íámjâá‘oœˆxÊ±ùñìÆ¼¼Ï!¯FÒœoéú¯ò4Âæ+K•»zžÃ£O¦}”6˜|Ùûÿ\\0ùÅ~}ˆ…~kUÿ\\0€{ÐQKÝî|çš)ÀläüSóEwëà¤cY^ôŸ„s	¼ ƒþyÌèCýk‹6.#Õ#Š‹÷N×æš\\\\òF¡¦Çž<¶8ÿ\\0W¿“¯ÝÍ˜ÔÖqFV‚|«½òOç\\\\¸¯zlôã±ÒÙÏÓšój@´hK«[ØAæÝJ± üÏÐw¬#‡YZQÝ-ÎÅ?³â²%GC³Ìþt~5õyâªÇÅµßeþoäpVÇP¦ù\\\\•ûø¿y«Ý´6×î³õOÿ\\0LW§S†êÆ7I?Gþf1ÇRnÛ™áÿ\\0¦¤ÂÞùÞìôÇÝ¦zjù<Ç_ßoÅ…)FJèÖ¹¹àó^Lasc&;/Y…¿†e17×ªÿ\\0Qø×S‡5»kþfS4f5Í&R˜Öñ%˜º½…½üE.\\\'³~†»hV\\\'x²%-Ï?ñƒsim3ÁûèÀ\\\'+ÃÃü+è0XèÊ¤[ÑœÓ£umÑô7À[­~Ar±lžúyn&\\\'©%È’ªŠýx¥‹œ«Gfßæx”0ïJ_D¿#Ñ*M€
+\\0ò¯ÚþHO‰¿í×ÿ\\0J¢ U €
+\\0(\\0 €
+\\0(²\\"ÉG Œ
+{ƒ@øƒB¸øKñ‚{;ä“û.Wo\\"b?Ö[¹ù[=Êð;ƒ@Óá«t½×ôÈnŠ[ˆÕ€î¥†J\\0öŸ‰wbÓÁ×Ü€Óm…Aï“Ïéš\\0ò=Þ}2çDÖ¼—8¦
+°È?P\\0o|_ñg‡>ø–Ç^ÔâŽúâu YDÃÍ¸Û(1ÐdúqÍ\\0|‹ñCâ&·ñ]ûv³ X\\",-m#ÿ\\0W“Ðz““Ôãð >ðh[Xïµ„!¤#É·>rÿ\\0‡oÎ¼,fiy:T:nÿ\\0Èì£‡¾³;È¤
+\\0^£s¸Ï¿¹7R÷(x§Ö½Ì³/VöµÉˆ¯ov\\\'â©\\\'Ô5KMÐüÒ2äv$ž3ì:×ÑÑ¥*Ó8nô<ºõ£FœªÏd®vøGðÞ”ó\\\\¯›å.^Fà±öõöŸPÃ`(¹O[u>)f¬ÂºŒ4¿CŸ‹_3\\\\“ikgå–8÷æ¾n¶7ÚKÜ‘õ40‘ýä›gámAî¶ùna¹QÆüúWÏæ9=|\\\\’åŸàýÏsÓÃã*aŒŸ4#°‹Pw>UÒùsþî+óÌf]S7	£èè×…hóA”5ÃæY¶?‡ŸéýhÂ«MSág¡ü\\\\øRãþ¿ÿ\\0@JçÎUñÓõgEû§¡¯/”ÒçŽ|iñ€íäìÆ¾ƒ*VÃÏÔÎ÷«.ÁÂAú(®Jªòlõ-Æ­öÝÛ¯›9;/¹­0¹uLdÔ ¿¯ë©ZÐ£i»#†ñV¸é+}¦W’n„/ðOjý,ÈpØ(§UsKðÿ\\0ƒó>{­‰Ò—»Äå,o4ÝBí`¹šXds…R£ÿ\\0½_g‚«B¬”&ìÙó8ê8Š0s‚M/ëc?Å¾–ÆÕt¹>h˜áx`3÷‡¸«Ì²w:Ôºne–gJ¥EB®—Øî¼¬ÂCáøne ]F|¹Jñóÿ\\0ˆÁ¯Åàéâ¡Ë5ó>²yQw‰èúF°÷6ÞUË¤F0O÷‡­~e™e’ÁVqkCèh×hó!×W,tå‘ƒêAÍsBgÔÑêt¦U–5‘UÀ`}A¯7•ÅÙ˜2œÆ¶Š(Îkx’Ì=yöéÓûŒ~µÛ…W¨„·=ÏáT^W€4qŒnˆ·æÄ×éyr¶Šw«#«®Óœ(\\0 *ý¨ÿ\\0ä„ø›þÝôª*\\0õZ\\0(\\0 €
+\\0(\\0 €
+\\0ù¿öÜ[ÁžŸhÜšƒ nø1±ÿ\\0ÙhÁÛ¯>_	ÎìX¸€z– úÐ¯|h\\\'þë!ÛíC?÷ÃP­ëúð…W[˜Å*¤·6äåÃ«Ç÷³ÿ\\0U\\0|iâz÷ÄšÄÚ†£!y_…’{@wÃÏ)êº‚X#aÿ\\0éù×Ïf¹ƒÖ…\\\'êÿ\\0Oó:èRûLì5;÷[â1Çüâ¼Š0´oÜíE)¦,<´=zŸjôp8Oo;½‘•j¾Íi¹Ú|7ð×ŠuXã”4Vi†™€û«þ\\\'°ÿ\\0
+úd’VG˜Ýõ8ïi¶š_í¨XA
+[Û[˜’^œZ¦Ôõ>ä×­’¤ñ°¿Ÿäyã’ÀÏ—Ëó)üTYlW>X¸ñþéÅ{üB¥ì#m¯ú3Àá§o+ïoÕN—÷…|Š>Ôõ‡Q	µËTeÜŸ6áí´Ö´•äŽ|T¹i6zõæ‹Öa$å€Vþ$>Æ¹ñø:XˆrT_æƒ‰œ%xœÏ‰t;ý&Û}Êläâ9×¡=@oCþð˜¼²x:‰ý›î}5,LkA÷=\\\'á¸‹ÁÑ‘ÖIAý+ÁÍ=ìGÉÔô‰Ü„®%¶xÿ\\0Æè@Ö4×îa þ^Þ]¥	¡Aþö\\\'9¦XÞêHÍj¥-Ôáç#åÐzšëÀåu1’íçe|Lh­w6Ž†–ÖLcWfâçï9Å~€ÀÒÂÃ–šùõgÊcq’«?yÿ\\0À<3Ä´ŽORI5©Ò´8Dá‰jF{…¾ÿ\\0ÃÖÂó—žÜïœŒf¿AÁÞ¶>ÓªÔüÓj©:{\\\'§Þf~ÎÎ¾Þ\\\'¶²%®-¡Šâ8óÃá˜õ9úWç/F~–µGlDM¹AI£8Áãêy¹–8ÚNu±Ó†Ä:3¿CAnÄÑ‡zC_žN„©MÂKT}d¤®Žƒ@»X˜‰ùá8üOðü+ÍÅRåŸ7r%¹jf¬âˆeÍmK9ÏË¶Ä/÷Üëý+ÑÁFó¿`ŽçÒ¾´6Ò­\\\\aâ¶Xµ´gõ¯Ópðä¥öHðêËšmš•±˜P@UûQÿ\\0É	ñ7ýºÿ\\0éTTê´\\0P@\\0\\0P@\\0ó§í´ßñAè+ë©gÿ\\0!?øÐ\\\'ðêi,<9áûˆ¸’a•~ ôgl—]ðd’ÛìŠ·Q~Ÿütš\\0øŸã§‰PÕlth[ýNCàýé–?–ì~&€8Ÿ	iKªjÑ¬Àý–2Sëè¿ø×;èRn;½iCžG±K2ÚÚ—\\0\\0£
+£ôò‹©+‚1¬£ŸP¼XaRóJÝ\\0ÍvT”iCšZ$Z;Ÿø>ï[¾Ž+k}×F#ä„y¯ùïå•¡V¹ÐàÅS”\\\'¯SêhžÒ’ÊÌ~ô’7Þ‘½OøW¢s+þÖþ¹ð÷Ä-+Æ–0£Þ*G+ÇŸÀÚŒôSé[aëJ…XÕŽé˜â(GJT¥³V1á¸±ñ½6Ëm:á—<©ô>„WßûJXêZÅŸžªu°ìô”¯¸Ä´ðúF`¾Ûx™#õæ¾r¶QÈýÙh}=óš>ô5õ=CÁZ¾Ž™CæÜ7+Þ€v‡°¦â©‹ž!ë¢ìu°\\\\hjVöVÍ¸+|ÄtÏÿ\\0Xf¼úÒ»²=l%7ó>¦÷ÄKO³ð•Æ“#ŸµÞF«iÔ\\0Àî>ƒåükÄÌñ0¥MÓz·Óõ=*4äýîˆÔøköO	éÈWidóÿ\\0xç?–+ó\\\\\\\\ùëÉÑV‰Ó D³Ì>9XÉ5…Å¿Ë /˜F@$?‘¯[-”o(2.âÓGG<šf©áq>ƒ°Z¢ü± ËÇU#±æ¿AÂT¥RštvüŽJ±œeïîrér·!Aâù*õè;£ÄÅÅÆOÌñßxJèÝÉ.š«$.IØXžÜõrÁÎNð*ŽcUÑœ=Ÿƒï.oTêùÊÙp[æaè1]8<ª¥Y§UZ&8Üâ•(5IÞG_âJÃóÊ
+Ç¶?.e±€ÓúWÓbñÁáœ¶ÒËô>K	†ž7£¾·~OLýŠü5-—…õ¿Ü?´§H!YËîÎGü¿<?H;ßŠ¾	kƒ&µ¤ÆLÝn Eå¿Ûþ£¿Z\\0ñØË™Ìp!fÚY€ô5òAì•Tö—_Ðö2÷.G}‹š¤-uw/ÈÇÓÐ×Íâh{JznŽéjus>\\\'¥yqFE\\\\x5´P™•§ö·‹tm7–Y—xÿ\\0g<þ€×¹”Ñö•îÑ—$¨kôSÂ
+\\0(\\0 *ý¨ÿ\\0ä„ø›þÝôª*\\0õZ\\0(\\0 €
+\\0(\\0 €
+\\0ùÃöÜ?ñEøxzêòP)àâ„´bGØâÿ\\0Ð\\0{ßÃ?Å/†g·¼pMBÄžñœþÊ€?>5ÍEõ}fûQ•Uêw˜¢ô]ÌN°Î(¹ð˜·ðÀ›<òo\\\'Øóï_;«Ï‰åè‘Ý‡£sTîäHÆù\\\\œ*ŽI5ËhÓN[\\\'®x#Ã±è¶ÂiÀ{éXÿ\\0sý‘_%™cž&\\\\±øWâtB6ÔÐð÷ˆeð_Œæ•”½…Ñýòz©9Ü=ÁÏê+ÚÉsA)tÙ‹EV…º£èk+¨/mb¹´•&‚UŽ‡!…}ì\\\'ÅJ.éž¢âìÌÏøsMñg‡/tmj:Êå6°§³)ìAä¡x»á_Œ>ê²Í¢	uM›p–.p;KP}ÆG¸é]˜\\\\]\\\\3½7þG.+GU_>¥-;Ç7Q7—>ž«:ðÀ±\\\\¡éË7”Ö±Ôòã‘Â/I»z¦ƒ¨ø‹_TŽÎÐ¤mÕâB v\\\'ÁW:žG¡GJ“¾þ§jº„´{{W[­fAµœ¤?â}¿:ùÜË5Žôéë?Èö°ØGSÞ–‘1,mîuMI^æG–æáÀgnO<WÈÕ®õ©7vtTjMF;#Þí-àŠ”,q¨E€_3ÎäîËh´²VªD4sŸ-Eÿ\\0†®2Ñ*þÐšëÁÕä¬¼É”t<sOÔotß´Ù9Øx–#÷d„WÐÑÅO?iMú®åÓQ«g?‘rþõåªh€”ÍoÕ£ö#ºúúWØà3bcÍÖèó1x>_v{w9ë¿X¿Ëv’@ÝÛ—ôçô¯ ¡‚ø´>{–UÞœŽ¹ã}:Ü·Ù’k‡]ªÏé^‡öÅKÝM³Š9%zßj+ïþ¾òxÄŸ¼C·k%‡‡£l½É\\\\*¯u?yÏ¯Aß°>7S.iíÑv=ü–´÷{¾çÜZ‘c hÖzV“n¶ö6‘ˆ¢{üÏr{šá;J>2ñ-§…ôy/.ˆiOË9Á‘½>ž¦¹qx¨aióËä»›Q¢ëK•á2÷Q¾Õn‡•Ý\\\'\\\'ò¯Ís|DªËÞz½Yî¨¨EE¾(ÒþÍ1¹·¹só(pÿ\\0…<#rKtRe6Ö®šÈÛ±‘3¾=+e…‚Ÿ:U{›êßèñçû£ùW^ó1f×ÁM7ûSÆ÷º´ƒ0ØÆV?÷Ûå¦ãø×Øä8o{™ô_‹9q“å¦£Ü÷ºú³Ê
+\\0(\\0 *ý¨ÿ\\0ä„ø›þÝôª*\\0õZ\\0(\\0 €
+\\0(\\0 €
+\\0ñ?ÚçÃÒë_
+^òÚ6’M*å.Ø(ÉòðQÐÉöö øO~/|klÉlÍsï‘úùP_5ÅÍ½è³•£’ki!8?x2A “èØ´(Óû
+Æ2ÓdÀE|†&OÛÊ^lô)éw^Ñá„›æO›îÇŸÔ×…™b¥/Ý\\\'êuSWÕÔO^$‘¹CÄ¶o±ßÌÐå—Üw¾·²žÌ¨²/‡¾;»ð´ÿ\\0gœ5Æ–í—‡<¡þòÿ\\0‡zúìc,+åzÇúØÃ…U•ÖŒúJÕlµ9/4Û„žÊžAô#±ö5õ´kB´Té»£Æœ%Ë$cj½Zº™ÌÞˆÆ^@€(ÉfÇwI]…¯±Áx—ÅànµÑÛ-œ4ãù/ø×Îf9ÒW§‡?òÿ\\03ÓÃ`¾Õ_¸çl4÷fógÉvçžÉ¯’k³ª¬ïîÇcºðN˜¦ÿ\\0í/ËÊÿ\\0½Ûú×ŸŒÄZ«©”!­ÏAI+ÍR-¢A%iÌMˆçÛ4/ƒ(êU‡¨4ÔÚwAÊy±¦{™aa„ŒúŠ÷iâ9â™-™Îº\\\\éWKudíSÕ{{jé£ˆ•)©Óvg\\\\%±ä™»§ÛøcÅÕtËhõûØÊ	rÇ?^~µöXÚž%(OI~~Ÿäy¸Œ$©kQÐi¿|!ÂÊt+IXt\\"þ*ÄƒùWªÎ3ÕôDTTDPª£\\0€fÆCã?iÞ³ßtâ[¶º¶Có7¹ôõÃŒÇSÂÆòÕö7¡‡•g¦ÇÏZÖ¯©x¿]^>é\\\\íD$Kè ¯‹ÆãeUºÕYíÒ¥1´NºÚìí#‚!„A¯½|´æêIÎ]A²²##€ÊÃõpºwDÜæ§Ð¢óËG)Xó¤dþuéG.[5©\\\\ãµ«¯²Ø¹C†#býM,=?i5s5«=¯àæý‡àËw•quz~Ñ&{÷GýóÄšý-¡ìh&÷zžV.§=M6Gs^Ì\\0P@UûQÿ\\0É	ñ7ýºÿ\\0éTTê´\\0P@\\0\\0P@\\0Ô][KoqÉ¨c‘d2‘‚á@|Eøyâƒþ ¹Õü9o6¥á+†Ë(É0gø_#ã<
+ºÄRØ—2=„Ç‚³ýÜÿ\\0¼8üN(Æ|Sbšwˆ/­à(ÖâBÑ9RÊàý Gð©y-,­]YdhãÚ0þ­|¦><“”ß™èÃX«Åf«1Æœ*(Q_Q¹6ÙÚ´/Äõ„‘E¸ž²hg!â}7ì·?h…q§·ð·¥zø*þÒ<’ÝEÜ‹Ãž!Ô¼;yö.á£\\\'‡ŒòŽ?Ú^õêáñU0Òæ¦È«FU¤ŽÆçâ¥Ôöø:d\\"ã»‰NßûçýkØÿ\\0X\\\'ËnE_Óþ	ÅýüZ®¡¬jþ\\"—c¹1g>\\\\cj¯¯ã^N74«Y~öV]‘ÓONŽ©j]ÓtU€“ç—×°úW[ç¢Ø©IÈÜ¶±É\\0.Ié\\\\Î½ˆå;M.³µX×¯V>¦¼ùÕu%rÔl‹ë%5\\"ZæUs
+Àd§Ì9ïX‰ñp‹ó‡þ†º0õù}ÖL£Ôå.,³œŠíUÉå9íGDe&K^]Ÿá]±kiÂ}$YÒ|a«i†\\\\N‰ÆÉÁÈüz×Ðá³šô¢•ù—Ÿù™TÁÒ©ªÓÐß¸ø­¨mš}Œ6Ò‘ƒ#¹ƒê\\0üó]Usê’V„Ry”2ø§y;ž{wqu%ÍäÒO<‡-$’kÃœåR\\\\Ówg|b¢¬Ž§Âz‘»•q$ƒ	žËÿ\\0×¯[ž^Íl‰“6¥zâŠ ©+ÖÑB*Jõ¬PŠþÑÿ\\0á/ñ½µ‰¬-¿{pGh##>çù×Òdø/k4¤¼ß¡jžÊ›—Sé¥Pª@
+\\0«îOZ\\0(\\0 €<«ö£ÿ\\0’âoûuÿ\\0Ò¨¨Õh\\0 €
+\\0(\\0 €
+\\0(\\0 e¥X¤`ƒÐÐâ„~×ÙÛRð¾žds¹¤M»“îÑ•4ÎÙÛá <èsc}?ÿ\\0@ÿ\\0Æ‡qi’iÞ$ðü+½’Goqn£…DQ‡àŸÀ×›Ðæ¤æ½Û„åÈÎjÆå\\\'…$CÃò¯€«MÁÙžŽÆŒo\\\\íj7¬š(–Xâº¡CFÃjc)B\\\\ÑÜi˜RxT3“ÉèÉ“üë¹f6^ôKæ,Úø^ÝåÇn‚³ža7¤t“7 ±H,hª£°®Vrwl›âµö¬¥Pv4-\\"XŽîý«	É±¤_I½ë4¬Â­1Xwœ*®+f¢áb9%¤AíJácêØdíäVÊ³R„¶¾Õª¨.R…æ—ÊâhÃ{÷mO(|,ÖÆ4þBs3¯³×lsö‘|ìuŸ†¢ŠP÷™\\09Ú©©”•¢¬W7€ÀÂ‘YµHEYµHF>µ|m Û3Éò þµÙ†£í%ä	\\\\÷/„¾>ðÒ›¥Q¼Ä³ú¯÷SðŸrkô<¿õzZî÷<¬Uoi=6Go]ç0P@\\0å_µüŸÛ¯þ•E@«@\\0\\0P@\\0\\0P@\\0\\0P@ÜÁÍ¼°\\\\\\"ÉªQÑ†C) ÒiIY6ÑóGŒ¼=7¼FÖí¹ô›¢^ÞSØzqßÛ¾+6Ë)iòÿ\\0#Ù£UVú Š@@ ñ_7(–[ŽJÍ¡Ü³•“ˆËÉY¸Œ°’Vn#,$•#&YjBä«-CˆîH²Òä’«±¦©É…Ñ\\"î5¬hI“Ì‰
+„œð+_«4›dóš¦»§im
+ê7°[4Í¶1+€\\\\ûVtp•«ÝÒ‹vÞÆ—±i¥¬TBä/-Zˆ®Bò
+µ<•j W’JÑDW+I%h¢\\"´’V©£yt–ð¼²œ*ÏÚ·§MÍò¡?ÁÏÉ®jŸð’êñ±ÂØµ‰º;âú/ê~•öY>^’U%²ÛÍ÷9qu¹³ŽýOx¯¥<À €
+\\0(\\0 *ý¨ÿ\\0ä„ø›þÝôª*\\0õZ\\0(\\0 €
+\\0(\\0 €
+\\0(\\0 €
+\\0(Å~²ñ6‹6¨.Qþdp>hß³qŸçX×¡ðp‘¥*Žœ¹‘óv¡c}á=fMYRŸÜÍ•×±Óù+ásèÍé¯æ{š«h—‘ëÆheˆä¬ÜGrÂIY¸a$¬ÜGrd’¡Äw&YjF\\\\´Û)Æ~jÚ=:“)XÑŠßÚ»#„3s-Goí[ÇK™a`ÀÉàæº#„KVO9ÆüCñ¥‡†4™%vYe<Gl[Ð{zšÊžXêŸW¡·WÑÒ§)jÏ–®®õ/x®{+Kuw*Æ¸é“ÑG`95öÐ§G-Â¿f­«úú•5f}XdÀÅ~WÊ;‘´µJ\\"¹ÉV¢%Zˆ®@òVŠ\\"+É%h¢\\"¥Äém$Œd“ZÆNÈDþðµ×5‘$ÁàÐí˜/þÈ÷? ¯¦Ê²Ç7w·Wú#:Õ•ùŸHÙÛCeiµ¬K(DE
+A_a¨¥ìy¶îÉª„\\0P@\\0å_µüŸÛ¯þ•E@«@\\0\\0P@\\0\\0P@\\0\\0P@\\0Ïø×Âš‹t£i~»e\\\\´3¨ù¢oQê=GÊ¹ñ8hb!Ë#Z5¥JWGÎú¶Ÿ©ø;SþÍ×c>Qæ…£¯¨?Ó¨¯‰Ì2ÙÒ–Úþg­	Æªæ‰n9(e ©äz×ŠÕ´c&I*Grt’³q2ËPâ«-Kˆîqþ ñ«á¡qqnÚŽ‰#q*KnObz0ô\\\'„úûL|ya.J‹î~ŸÈ¨®mºwÆMÆ»ä÷e‡$~\\"ºÿ\\0³3
+Z+H¯©¹lh?ÆM/îä$ÿ\\0³Z¯ªæË\\\\rº’ÿ\\0‡9Oücžâ&L·rOñÎp£è£¯âkXdõ«;âªiÙtòµfÏ!×5KÍ^ñîµ‡žfîÇ€=\\0ì=…}O
+JÈ¹Æ0V‰é¼,m³¯_ÆŽ¥mU‡*§‚þÙè=³ë_5Ä9?û-7¢ßü:£ÔôÅ½{,9û WÍºV‚‘•õ±+KP¢;‘4¾õj\\"¹ÉV¢\\"’­D
+·w1ÛDeÂ¨ý~•­:no– ZðW„u_¬ÓµÐ¡žNïì¾§ß ¯¥Ë2§?yíÕþˆÊµxÑ^gÑšF›i¤iÐXéð¬6Ð®ÔEþgÔû××S§qQŠ²G“)9¾f[«$(\\0 €
+\\0(\\0 *ý¨ÿ\\0ä„ø›þÝôª*\\0õZ\\0(\\0 €
+\\0(\\0 €
+\\0(\\0 €
+\\0(\\0 4¨½XP?‰4ý#^Ód±Õ¡IánŸÞCê§±¬ªÑ…hòÍ]
+’¦ù¢|ÿ\\0âŸ
+j^¸’kmCFÎwcæŒ´;}zWÊæ9;¼µ]ÿ\\0Ìõ)b#WG£)X_Áz¹…þ`2PõóuhÊ“÷š±t1„H²T¸Žä«-Kˆ	0Žâ†tY\\"qµ‘ÆCB(àù¢ìÐîygŠ¾KsáóæDy6Ì~eÿ\\0tž£Øþµõ,ö2\\\\˜ó:èâ-¤ŽêÞæÂcìÁ(þ©ýkÝ„áUsSi¯#Ò§]5£egy¨ËåØÛMpýÄhN>¾”ªU§E^¤’õ
+•ÒZ³Ð<!ðé„Éyâ»T†[PsŸ÷Ï§µxüñYÓÃ}ÿ\\0åþg›[Í¤O@Öõ«}ÌÇ˜Ãl1/sý\\0¯…ž&zmÕœ3šŠ2ü7<×½Ää—s¹tã!%‘M·«:–¸MHÚLÕ(ˆŒ±5V/QÕáµ&(¿}qœ^Çßü+ªŽuuÙ+g‚>É¬\\\\¦£â÷h­†vjv³ö¿º?Sí_Y€ÉÔUê+.Ý_©É[£îÓß¹îöOgmo‹0F6¢ ÀQè}b¢¬¶<æÛwe¥unŒ1 €
+\\0(\\0 €
+\\0ò¯ÚþHO‰¿í×ÿ\\0J¢ U €
+\\0(\\0 €
+\\0(\\0 €
+\\0(9&Tš\\0£q¨éÅ\\0f\\\\ê¬3ó\\0É¹ÕÛŸ˜ÐUÎ°Ã?1 «­hAlƒØÐ¯èÖW3‹-.:üœ)?Nß…yx¬®ma£üÊXÉCIjŒTÕ/,Ë¿‹ÍAÇ˜½úõòø¼¢tíoÈï…HTøY­i¨ÚÝäÊ»ðžå^EJ§ñ\\"š±pÄB†4¬ƒš,10êzš›ã]Ú8Ï’‹‘ÐtÒMûÂlÆ¼¹ÖäÊÛGíçõ8®ÊtðËY;™·>†u·†®..~Ó©Üûäý=tÏG’’Ð•I·y=¼1ÛÄ#‰v¨¯2rsw‘ªVØy5#3ou«K`@“Íî§?¯Jé§…©>–CI³8O¨jîµ·=[×ñêkÜÁdÒž¶ù¿ò2©^-õgWá›?H+$h%¹ÿ\\0ž¯ÉAÚ¾£§CU«îyõq3«¦Èìíµ¦8ù«°ç5mµ†?ÄhVÛVn>c@¶Ú£|Æ€5 ¿9 ˆêãƒ@ €
+\\0(Ê¿j?ù!>&ÿ\\0·_ý*Š€=V€
+\\0(\\0 €
+\\0(\\0 €
+\\0(;xë@—Aù { üÐ=Ð~hí_š\\0ÇºY9ë@÷K%\\0cÝ,œðhí$ ‚2)4š³íª1.-˜Uq\\\\²Ú55Z?#ªž2¤7ÔXuKë\\\\,›Gfù…xÕòõŠOð:£Œ§/‰XÑƒÄÒ‰àF>ªqúòjå!Ñ¯‘ºœ%ðÈ»‰-OßŽUú\\0kŽX
+‹f_+,&½§°æfSèQ¿ ¬Þªè.V?ûoOÿ\\0Ÿüq¿Â—Õ*ÿ\\0/ä¬õûû²;ÿ\\0º‡úâšÁU}••¥ñ-¸ÿ\\0W­þöm¾o¨ùm¹BãÄ·ÄÇõûÆ»¨ä³ŸFÿ\\09T§ägMwyyÄÒHÊ{ùW±C#åÖVG<±°_
+\\\'´¶`AÙ“ï^½:¥wærTÄÔžìÜ¶Yxë]†½ªÉÇZ\\0ÙµY8ë@öªüu ›U~(bÔ?±jŠ\\0ØµÅ\\0_(\\0 €
+\\0ò¯ÚþHO‰¿í×ÿ\\0J¢ U €
+\\0(\\0 €
+\\0(\\0 €
+\\0(¯¿Q@&°Wé@·:I9À «Ž~Z\\0Ë¹ÑXçå »	ðÐeÆ€Ç?/é@³øuŽ~OÒ€3çðÙ?ÁúP	¼0Oð~”N_
+“ü¥\\0V
+ÈED©Â_L¥9GfD|*þX¼ö¢¯Q}¦\\\'ü\\"Òz5OÔpÿ\\0È‡õš¿Ì9|*þV°”VÐ_q.½Gö™\\"xP÷C[(Æ;#7&÷e¨|,Gü³ý*„^‡Ãé@àðÙÁúP„aü§o °ÇËúP¾†Ã-\\0j[h¬1òÐ¥¶ŽÃ-\\0jÛéDc#¡’\\\'Z\\0´ªp(h\\0 €
+\\0ò¯ÚþHO‰¿í×ÿ\\0J¢ U €
+\\0(\\0 €
+\\0(\\0 €
+\\0(\\0 €
+\\0Bê 47TØ@ÝV€ }\\"Ý»P¡@ÞŸ•\\0WD}(ðÄg²ÐMáT=…\\0DÞ_îŠ\\0að’ÿ\\0pPÿ\\0Šÿ\\0pP\\0<$¿Ü\\"øMGðŠ\\0‘|*ƒ° 	“ÃŽË@§‡a”a48Óò 	¥[¯j\\0™, ^‰@,1¯D\\0ð\\0è(\\0 €
+\\0(\\0 €
+\\0ò¯ÚþHO‰¿í×ÿ\\0J¢ U €
+\\0(\\0 €
+\\0(\\0 €
+\\0(\\0 €
+\\0(\\0 €
+\\0(\\0 €
+\\0(\\0 €
+\\0(\\0 €
+\\0(\\0 €
+\\0(\\0 €
+\\0(\\0 €
+\\0ò¯ÚþHO‰¿í×ÿ\\0J¢ ÿÙ')
+ 5 APPPATH\Controllers\UserManagement.php(25): App\Controllers\UserManagement->AddAvatar('3')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserManagement->SetAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 16:15:42 --> ErrorException: Undefined variable $Arhitector
+[Method: GET, Route: userManagement]
+in APPPATH\Views\layouts\adminHeader.php on line 12.
+ 1 APPPATH\Views\layouts\adminHeader.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Arhitector', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/UserManagement/userManagement', [], true)
+10 APPPATH\Controllers\UserManagement.php(17): view('/UserManagement/userManagement', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserManagement->userManagement()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 16:18:44 --> ErrorException: Undefined variable $avatar
+[Method: GET, Route: userManagement]
+in APPPATH\Views\layouts\adminHeader.php on line 12.
+ 1 APPPATH\Views\layouts\adminHeader.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $avatar', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/UserManagement/userManagement', [], true)
+10 APPPATH\Controllers\UserManagement.php(17): view('/UserManagement/userManagement', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserManagement->userManagement()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 16:18:46 --> ErrorException: Undefined variable $avatar
+[Method: GET, Route: userManagement]
+in APPPATH\Views\layouts\adminHeader.php on line 12.
+ 1 APPPATH\Views\layouts\adminHeader.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $avatar', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/UserManagement/userManagement', [], true)
+10 APPPATH\Controllers\UserManagement.php(17): view('/UserManagement/userManagement', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserManagement->userManagement()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 16:18:47 --> ErrorException: Undefined variable $avatar
+[Method: GET, Route: userManagement]
+in APPPATH\Views\layouts\adminHeader.php on line 12.
+ 1 APPPATH\Views\layouts\adminHeader.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $avatar', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/UserManagement/userManagement', [], true)
+10 APPPATH\Controllers\UserManagement.php(17): view('/UserManagement/userManagement', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserManagement->userManagement()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 16:21:29 --> ErrorException: Undefined array key 0
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 APPPATH\Views\layouts\adminHeader.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+10 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 16:21:32 --> ErrorException: Undefined array key 0
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 APPPATH\Views\layouts\adminHeader.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+10 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 16:21:33 --> ErrorException: Undefined array key 0
+[Method: GET, Route: userManagement]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 APPPATH\Views\layouts\adminHeader.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/UserManagement/userManagement', [], true)
+10 APPPATH\Controllers\UserManagement.php(17): view('/UserManagement/userManagement', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserManagement->userManagement()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 16:21:34 --> ErrorException: Undefined array key 0
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 APPPATH\Views\layouts\adminHeader.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+10 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 16:21:34 --> ErrorException: Undefined array key 0
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 APPPATH\Views\layouts\adminHeader.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+10 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 16:21:35 --> ErrorException: Undefined array key 0
+[Method: GET, Route: registration]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 APPPATH\Views\layouts\adminHeader.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Registration/registration', [], true)
+10 APPPATH\Controllers\Registration.php(14): view('/Registration/registration')
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registration->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registration))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 16:21:35 --> ErrorException: Undefined array key 0
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 APPPATH\Views\layouts\adminHeader.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+10 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 16:21:38 --> ErrorException: Undefined array key 0
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 APPPATH\Views\layouts\adminHeader.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+10 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 16:21:43 --> ErrorException: Undefined array key 0
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 APPPATH\Views\layouts\adminHeader.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+10 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 16:21:44 --> ErrorException: Undefined array key 0
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 APPPATH\Views\layouts\adminHeader.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+10 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 16:24:13 --> ErrorException: Undefined array key 0
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 APPPATH\Views\layouts\adminHeader.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+10 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 16:24:37 --> ErrorException: Undefined array key "whois"
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 APPPATH\Views\layouts\adminHeader.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "whois"', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+10 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 16:26:08 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 APPPATH\Views\layouts\adminHeader.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+10 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 16:26:50 --> ErrorException: Undefined array key 0
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 APPPATH\Views\layouts\adminHeader.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+10 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 16:27:09 --> Error: Call to a member function get() on array
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 4 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 5 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 6 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+ 9 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 16:27:40 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 APPPATH\Views\layouts\adminHeader.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+10 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 16:27:41 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 APPPATH\Views\layouts\adminHeader.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+10 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 16:27:42 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 APPPATH\Views\layouts\adminHeader.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+10 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 16:27:50 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 APPPATH\Views\layouts\adminHeader.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+10 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 16:27:51 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 APPPATH\Views\layouts\adminHeader.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+10 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 16:27:51 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 APPPATH\Views\layouts\adminHeader.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+10 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 16:28:10 --> ErrorException: Undefined array key 0
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 APPPATH\Views\layouts\adminHeader.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+10 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 16:28:16 --> ErrorException: Undefined array key 1
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 APPPATH\Views\layouts\adminHeader.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+10 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 16:28:34 --> ErrorException: Attempt to read property "whois" on array
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 APPPATH\Views\layouts\adminHeader.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "whois" on array', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+10 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 16:28:35 --> ErrorException: Attempt to read property "whois" on array
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 APPPATH\Views\layouts\adminHeader.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "whois" on array', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+10 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 16:28:35 --> ErrorException: Attempt to read property "whois" on array
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 APPPATH\Views\layouts\adminHeader.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "whois" on array', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+10 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 16:28:35 --> ErrorException: Attempt to read property "whois" on array
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 APPPATH\Views\layouts\adminHeader.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "whois" on array', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+10 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 16:29:06 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 APPPATH\Views\layouts\adminHeader.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+10 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 16:29:10 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 APPPATH\Views\layouts\adminHeader.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+10 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 16:29:10 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 APPPATH\Views\layouts\adminHeader.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+10 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 16:29:10 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 APPPATH\Views\layouts\adminHeader.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+10 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 16:29:22 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 APPPATH\Views\layouts\adminHeader.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+10 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 16:29:23 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 APPPATH\Views\layouts\adminHeader.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+10 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 16:29:24 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 APPPATH\Views\layouts\adminHeader.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+10 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 16:30:24 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 APPPATH\Views\layouts\adminHeader.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+10 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 16:31:47 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 APPPATH\Views\layouts\adminHeader.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+10 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 16:32:05 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 APPPATH\Views\layouts\adminHeader.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+10 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 16:32:05 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 APPPATH\Views\layouts\adminHeader.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+10 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 16:32:05 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 APPPATH\Views\layouts\adminHeader.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+10 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 16:32:05 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 APPPATH\Views\layouts\adminHeader.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+10 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 16:32:06 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 APPPATH\Views\layouts\adminHeader.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+10 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 16:32:06 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 APPPATH\Views\layouts\adminHeader.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+10 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 16:32:07 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 APPPATH\Views\layouts\adminHeader.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+10 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 16:32:23 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 APPPATH\Views\layouts\adminHeader.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+10 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 16:32:30 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 APPPATH\Views\layouts\adminHeader.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+10 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 16:32:49 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 APPPATH\Views\layouts\adminHeader.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+10 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 16:32:50 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 APPPATH\Views\layouts\adminHeader.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+10 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 16:33:21 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 APPPATH\Views\layouts\adminHeader.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+10 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 16:33:21 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 APPPATH\Views\layouts\adminHeader.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+10 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 16:33:21 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 APPPATH\Views\layouts\adminHeader.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+10 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 16:33:22 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 APPPATH\Views\layouts\adminHeader.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+10 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 16:35:37 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 APPPATH\Views\layouts\adminHeader.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(15): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+10 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 16:35:38 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 APPPATH\Views\layouts\adminHeader.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(15): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+10 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 16:35:48 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 APPPATH\Views\layouts\adminHeader.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+10 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 16:35:48 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 APPPATH\Views\layouts\adminHeader.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+10 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 16:35:48 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 APPPATH\Views\layouts\adminHeader.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+10 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
+CRITICAL - 2024-12-05 16:35:59 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Views\layouts\adminHeader.php on line 11.
+ 1 APPPATH\Views\layouts\adminHeader.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\adminHeader.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/layouts/adminHeader', [], true)
+ 5 APPPATH\Views\layouts\default.php(14): view('/layouts/adminHeader', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TouristAgency\\app\\Views\\layouts\\default.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/default', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Home/index', [], true)
+10 APPPATH\Controllers\Home.php(8): view('/Home/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TouristAgency\\public\\index.php')
